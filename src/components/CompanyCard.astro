@@ -1,0 +1,25 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  href: string;
+  logo: string;
+  name: string;
+  blurb: string;
+  external?: boolean;
+  externalLabel?: string;
+}
+const { href, logo, name, blurb, external = false, externalLabel } = Astro.props;
+---
+
+<a
+  class="company-card"
+  href={href}
+  target={external ? '_blank' : undefined}
+  rel={external ? 'noopener noreferrer' : undefined}
+>
+  <div class="logo-frame"><img src={withBase(logo)} alt={name} loading="lazy" /></div>
+  <h3>{name}</h3>
+  <p>{blurb}</p>
+  {external && externalLabel && <span class="external-tag">{externalLabel} ↗</span>}
+</a>

@@ -1,2 +1,5 @@
 .DS_Store
 web.config
+node_modules/
+dist/
+.astro/

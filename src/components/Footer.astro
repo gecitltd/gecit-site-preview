@@ -1,0 +1,15 @@
+---
+import { site } from '../data/site';
+
+interface Props {
+  locale: 'tr' | 'en';
+}
+const { locale } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p>{site.footerCopyright(year, locale)}</p>
+  </div>
+</footer>

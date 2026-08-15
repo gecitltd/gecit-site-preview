@@ -1,0 +1,34 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { withBase } from '../lib/url';
+import '../styles/global.css';
+
+interface Props {
+  locale: 'tr' | 'en';
+  title: string;
+  description?: string;
+  altHref: string;
+}
+const { locale, title, description, altHref } = Astro.props;
+const desc = description ?? site.seo.description[locale];
+---
+
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <meta name="keywords" content={site.seo.keywords} />
+    <link rel="icon" href={withBase('/img/gecit-icon.png')} type="image/png" />
+  </head>
+  <body>
+    <Nav locale={locale} altHref={altHref} />
+    <main>
+      <slot />
+    </main>
+    <Footer locale={locale} />
+  </body>
+</html>

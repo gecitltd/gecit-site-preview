@@ -1,0 +1,10 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import Layout from '../layouts/Layout.astro';
+import HomeContent from '../components/HomeContent.astro';
+import { site } from '../data/site';
+---
+
+<Layout locale="tr" title={`Geçit — ${site.hero.heading.tr}`} altHref={getRelativeLocaleUrl('en', '/')}>
+  <HomeContent locale="tr" />
+</Layout>

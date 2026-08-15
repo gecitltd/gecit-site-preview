@@ -1,0 +1,39 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { site } from '../data/site';
+import { withBase } from '../lib/url';
+
+interface Props {
+  locale: 'tr' | 'en';
+  altHref: string;
+}
+const { locale, altHref } = Astro.props;
+const home = getRelativeLocaleUrl(locale, '/');
+---
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href={home}>
+      <img src={withBase('/img/gecit.png')} alt="Geçit" />
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      ☰
+    </button>
+    <nav class="nav-links" id="primary-nav" aria-label="Primary">
+      <a href={`${home}#glass`}>{site.nav.glass[locale]}</a>
+      <a href={`${home}#ceramics`}>{site.nav.ceramics[locale]}</a>
+      <a href={`${home}#contact`}>{site.nav.contact[locale]}</a>
+      <a href={altHref} class="lang-switch">{site.nav.langSwitch[locale]}</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const links = document.getElementById('primary-nav');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = links?.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
+  });
+</script>

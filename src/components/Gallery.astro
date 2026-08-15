@@ -1,0 +1,19 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  images: string[];
+  alt: string;
+}
+const { images, alt } = Astro.props;
+---
+
+{
+  images.length > 0 && (
+    <div class="gallery">
+      {images.map((src) => (
+        <img src={withBase(src)} alt={alt} loading="lazy" />
+      ))}
+    </div>
+  )
+}

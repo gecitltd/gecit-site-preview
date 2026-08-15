@@ -1,0 +1,24 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import Layout from '../../../layouts/Layout.astro';
+import CompanyDetail from '../../../components/CompanyDetail.astro';
+
+export async function getStaticPaths() {
+  const companies = await getCollection('companiesEn');
+  return companies.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<'companiesEn'>;
+}
+const { entry } = Astro.props;
+---
+
+<Layout
+  locale="en"
+  title={`${entry.data.name} — Geçit`}
+  altHref={getRelativeLocaleUrl('tr', `/companies/${entry.id}/`)}
+>
+  <CompanyDetail entry={entry} locale="en" />
+</Layout>

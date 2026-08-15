@@ -1,0 +1,63 @@
+---
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import Gallery from './Gallery.astro';
+import { site } from '../data/site';
+
+interface Props {
+  entry: CollectionEntry<'companies'> | CollectionEntry<'companiesEn'>;
+  locale: 'tr' | 'en';
+}
+const { entry, locale } = Astro.props;
+const { Content, headings } = await render(entry);
+const quicknavItems = headings.filter((h) => h.depth === 2);
+
+const home = getRelativeLocaleUrl(locale, '/');
+const industryLabel = entry.data.industry === 'glass' ? site.nav.glass[locale] : site.nav.ceramics[locale];
+const industryAnchor = entry.data.industry === 'glass' ? 'glass' : 'ceramics';
+---
+
+<div class="container">
+  <div class="company-header">
+    <p class="breadcrumb">
+      <a href={home}>{site.nav.home[locale]}</a>
+      <span class="sep" aria-hidden="true">&rsaquo;</span>
+      <a href={`${home}#${industryAnchor}`}>{industryLabel}</a>
+      <span class="sep" aria-hidden="true">&rsaquo;</span>
+      <span>{entry.data.name}</span>
+    </p>
+    <h1>{entry.data.name}</h1>
+    <p class="tagline">{entry.data.summary}</p>
+  </div>
+</div>
+
+<div class="container company-layout">
+  <div class="company-body">
+    <Gallery images={entry.data.gallery} alt={entry.data.name} />
+    <Content />
+  </div>
+  <aside class="company-aside">
+    {
+      quicknavItems.length > 0 && (
+        <nav class="quicknav">
+          <h4>{site.productsLabel[locale]}</h4>
+          <ul>
+            {quicknavItems.map((h) => (
+              <li>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+    {
+      entry.data.officialUrl && (
+        <a class="btn" href={entry.data.officialUrl} target="_blank" rel="noopener noreferrer">
+          {site.moreInfoLabel[locale]}
+        </a>
+      )
+    }
+  </aside>
+</div>
