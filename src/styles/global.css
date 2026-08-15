@@ -904,29 +904,6 @@ h4 {
   pointer-events: none;
 }
 
-.breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45em;
-  font-size: 0.84rem;
-  color: var(--on-navy-muted);
-  margin: 0 0 1.25rem;
-}
-
-.breadcrumb a {
-  color: var(--on-navy-muted);
-  transition: color 0.25s var(--ease-out);
-}
-
-.breadcrumb a:hover {
-  color: #fff;
-}
-
-.breadcrumb .sep {
-  color: rgba(255, 255, 255, 0.28);
-}
-
 .company-header-main {
   display: flex;
   align-items: center;
