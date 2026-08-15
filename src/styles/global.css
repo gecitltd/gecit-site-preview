@@ -316,20 +316,26 @@ h4 {
 .company-header-main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1.5rem;
+}
+
+.company-header-text {
+  min-width: 0;
 }
 
 .company-logo-frame {
   flex: 0 0 auto;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: 0.75rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .company-logo-frame img {
@@ -343,14 +349,16 @@ h4 {
   font-size: clamp(1.6rem, 3.5vw, 2.25rem);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .company-header-main {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
   }
 
   .company-logo-frame {
-    width: 84px;
-    height: 84px;
+    width: 160px;
+    height: 72px;
   }
 }
 

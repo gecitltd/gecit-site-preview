@@ -29,12 +29,12 @@ const industryAnchor = entry.data.industry === 'glass' ? 'glass' : 'ceramics';
       <span>{entry.data.name}</span>
     </p>
     <div class="company-header-main">
-      <div class="company-logo-frame">
-        <img src={withBase(entry.data.logo)} alt={entry.data.name} />
-      </div>
-      <div>
+      <div class="company-header-text">
         <h1>{entry.data.name}</h1>
         <p class="tagline">{entry.data.summary}</p>
+      </div>
+      <div class="company-logo-frame">
+        <img src={withBase(entry.data.logo)} alt={entry.data.name} />
       </div>
     </div>
   </div>
