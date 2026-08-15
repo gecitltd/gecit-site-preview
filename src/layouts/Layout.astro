@@ -1,4 +1,5 @@
 ---
+import { Font } from 'astro:assets';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { site } from '../data/site';
@@ -22,7 +23,17 @@ const desc = description ?? site.seo.description[locale];
     <title>{title}</title>
     <meta name="description" content={desc} />
     <meta name="keywords" content={site.seo.keywords} />
+    <meta name="theme-color" content="#04101f" />
     <link rel="icon" href={withBase('/img/gecit-icon.png')} type="image/png" />
+    {/* Runs before first paint so reveal-on-scroll styles only apply when there
+        is JS to undo them. */}
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
+    {/* Only the display face is preloaded: it renders the LCP headline. Body
+        text swaps in from the metric-matched fallback without layout shift. */}
+    <Font cssVariable="--font-display" preload />
+    <Font cssVariable="--font-body" />
   </head>
   <body>
     <Nav locale={locale} altHref={altHref} />
@@ -30,5 +41,73 @@ const desc = description ?? site.seo.description[locale];
       <slot />
     </main>
     <Footer locale={locale} />
+
+    <script>
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      /* Nav switches from transparent-over-hero to a solid blurred bar. */
+      const nav = document.querySelector('.site-nav');
+      const onScroll = () => nav?.classList.toggle('is-stuck', window.scrollY > 24);
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+
+      /* Reveal-on-scroll. Elements stay visible once shown so re-scrolling the
+         page doesn't re-animate content the visitor has already read. */
+      const revealables = document.querySelectorAll<HTMLElement>('[data-reveal]');
+      if (reduceMotion) {
+        revealables.forEach((el) => el.classList.add('is-revealed'));
+      } else {
+        const revealObserver = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+              entry.target.classList.add('is-revealed');
+              revealObserver.unobserve(entry.target);
+            }
+          },
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.1 },
+        );
+        revealables.forEach((el) => revealObserver.observe(el));
+      }
+
+      /* Pointer-tracked spotlight on the company cards. */
+      if (!reduceMotion && window.matchMedia('(hover: hover)').matches) {
+        document.querySelectorAll<HTMLElement>('.company-card').forEach((card) => {
+          card.addEventListener('pointermove', (event) => {
+            const rect = card.getBoundingClientRect();
+            card.style.setProperty('--mx', `${event.clientX - rect.left}px`);
+            card.style.setProperty('--my', `${event.clientY - rect.top}px`);
+          });
+        });
+      }
+
+      /* Highlights the nav link (home) or quicknav link (detail pages) whose
+         section is currently in view. */
+      function trackActive(links: NodeListOf<HTMLAnchorElement>) {
+        const targets = new Map<Element, HTMLAnchorElement>();
+        links.forEach((link) => {
+          const id = link.hash.slice(1);
+          if (!id) return;
+          const section = document.getElementById(decodeURIComponent(id));
+          if (section) targets.set(section, link);
+        });
+        if (targets.size === 0) return;
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+              links.forEach((l) => l.classList.remove('is-active'));
+              targets.get(entry.target)?.classList.add('is-active');
+            }
+          },
+          { rootMargin: '-20% 0px -70% 0px' },
+        );
+        targets.forEach((_link, section) => observer.observe(section));
+      }
+
+      trackActive(document.querySelectorAll<HTMLAnchorElement>('.nav-links a[href*="#"]'));
+      trackActive(document.querySelectorAll<HTMLAnchorElement>('.quicknav a[href^="#"]'));
+    </script>
   </body>
 </html>

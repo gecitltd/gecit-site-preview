@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 import { visit } from 'unist-util-visit';
 
 // Lets one codebase deploy either to the production custom domain (root path)
@@ -41,4 +41,26 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [rehypeBaseImages],
   },
+  // Self-hosted, subset to latin-ext so Turkish diacritics (ğ ş ı İ ç ö ü) render
+  // from the webfont rather than falling back mid-word.
+  fonts: [
+    {
+      provider: fontProviders.fontsource(),
+      name: 'Space Grotesk',
+      cssVariable: '--font-display',
+      // Headings are all one weight, so shipping a single face keeps the
+      // preloaded payload to two small files.
+      weights: [600],
+      styles: ['normal'],
+      subsets: ['latin', 'latin-ext'],
+    },
+    {
+      provider: fontProviders.fontsource(),
+      name: 'Inter',
+      cssVariable: '--font-body',
+      weights: [400, 500, 600, 700],
+      styles: ['normal'],
+      subsets: ['latin', 'latin-ext'],
+    },
+  ],
 });

@@ -1,5 +1,6 @@
 ---
 import { site } from '../data/site';
+import { withBase } from '../lib/url';
 
 interface Props {
   locale: 'tr' | 'en';
@@ -9,7 +10,8 @@ const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
-  <div class="container">
+  <div class="container footer-inner">
+    <img src={withBase('/img/gecit.png')} alt="Geçit" loading="lazy" />
     <p>{site.footerCopyright(year, locale)}</p>
   </div>
 </footer>

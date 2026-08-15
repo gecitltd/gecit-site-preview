@@ -19,8 +19,8 @@ const industryLabel = entry.data.industry === 'glass' ? site.nav.glass[locale] :
 const industryAnchor = entry.data.industry === 'glass' ? 'glass' : 'ceramics';
 ---
 
-<div class="container">
-  <div class="company-header">
+<div class="company-header">
+  <div class="container">
     <p class="breadcrumb">
       <a href={home}>{site.nav.home[locale]}</a>
       <span class="sep" aria-hidden="true">&rsaquo;</span>
@@ -64,6 +64,9 @@ const industryAnchor = entry.data.industry === 'glass' ? 'glass' : 'ceramics';
       entry.data.officialUrl && (
         <a class="btn" href={entry.data.officialUrl} target="_blank" rel="noopener noreferrer">
           {site.moreInfoLabel[locale]}
+          <span class="arrow" aria-hidden="true">
+            ↗
+          </span>
         </a>
       )
     }

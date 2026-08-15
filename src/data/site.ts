@@ -22,14 +22,35 @@ export const site = {
   } satisfies Record<string, Localized>,
 
   hero: {
+    eyebrow: {
+      tr: 'Türkiye Temsilciliği',
+      en: 'Representation in Türkiye',
+    },
     heading: {
       tr: "Geçit Danışmanlık ve Temsilcilik'e Hoşgeldiniz",
       en: 'Welcome to Geçit Consultancy and Representation Ltd. Co.',
+    },
+    // Substring of `heading` rendered with the gradient fill. Kept as data so the
+    // headline copy itself stays a single translatable sentence.
+    headingAccent: {
+      tr: 'Geçit',
+      en: 'Geçit',
     },
     subheading: {
       tr: 'Cam, seramik ve refrakter endüstrileri için dünya çapında üreticilerin Türkiye temsilcisi.',
       en: 'Representing world-class manufacturers in Turkey for the glass, ceramics and refractory industries.',
     },
+  } satisfies Record<string, Localized>,
+
+  marqueeLabel: {
+    tr: 'Temsil Ettiğimiz Üreticiler',
+    en: 'Manufacturers We Represent',
+  } satisfies Localized,
+
+  sectionEyebrows: {
+    glass: { tr: 'Sıcak Uçtan Soğuk Uca', en: 'Hot End to Cold End' },
+    ceramics: { tr: 'Refrakter ve Hammaddeler', en: 'Refractories & Raw Materials' },
+    contact: { tr: 'Bize Ulaşın', en: 'Get in Touch' },
   } satisfies Record<string, Localized>,
 
   about: {

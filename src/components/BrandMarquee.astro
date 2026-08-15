@@ -1,0 +1,32 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  label: string;
+  logos: { src: string; name: string }[];
+}
+const { label, logos } = Astro.props;
+// The track holds two copies of the list so the loop is seamless: the animation
+// translates by exactly -50%, landing back on an identical frame.
+const track = [...logos, ...logos];
+---
+
+<div class="marquee">
+  <p class="marquee-label">{label}</p>
+  <div class="marquee-viewport">
+    <div class="marquee-track">
+      {
+        track.map((logo, i) => (
+          <div class:list={['marquee-item', i >= logos.length && 'is-clone']}>
+            <img
+              src={withBase(logo.src)}
+              alt={i < logos.length ? logo.name : ''}
+              aria-hidden={i >= logos.length ? 'true' : undefined}
+              loading="lazy"
+            />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>

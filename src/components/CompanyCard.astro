@@ -8,8 +8,9 @@ interface Props {
   blurb: string;
   external?: boolean;
   externalLabel?: string;
+  index?: number;
 }
-const { href, logo, name, blurb, external = false, externalLabel } = Astro.props;
+const { href, logo, name, blurb, external = false, externalLabel, index = 0 } = Astro.props;
 ---
 
 <a
@@ -17,9 +18,14 @@ const { href, logo, name, blurb, external = false, externalLabel } = Astro.props
   href={href}
   target={external ? '_blank' : undefined}
   rel={external ? 'noopener noreferrer' : undefined}
+  data-reveal
+  style={`--reveal-delay: ${index % 4}`}
 >
   <div class="logo-frame"><img src={withBase(logo)} alt={name} loading="lazy" /></div>
   <h3>{name}</h3>
   <p>{blurb}</p>
-  {external && externalLabel && <span class="external-tag">{externalLabel} ↗</span>}
+  <div class="card-foot">
+    <span class="external-tag">{external && externalLabel ? externalLabel : ''}</span>
+    <span class="card-arrow" aria-hidden="true">{external ? '↗' : '→'}</span>
+  </div>
 </a>
