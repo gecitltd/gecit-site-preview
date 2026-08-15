@@ -2,9 +2,10 @@
    Geçit design system
 
    Palette logic: a deep navy "furnace night" base for the framing bands (nav,
-   hero, contact, footer, company headers) with two accent gradients that map
-   onto the two halves of the business — molten ember for the glass hot end,
-   electric blue for the cold end / ceramics.
+   hero, contact, footer, company headers), plus two accent gradients for the
+   temperature split inside glass production — molten ember for the hot end,
+   electric blue for the cold end. That pairing is not stretched to the two
+   industries, where it would encode nothing real.
    ========================================================================== */
 
 :root {
