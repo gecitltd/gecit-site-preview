@@ -10,7 +10,7 @@ export const site = {
   brand: 'Geçit',
   legalName: {
     tr: 'Geçit Danışmanlık ve Temsilcilik Ltd. Şti.',
-    en: 'Geçit Consultancy and Representency Ltd. Co.',
+    en: 'Geçit Consultancy and Representation Ltd. Co.',
   } satisfies Localized,
 
   nav: {
@@ -24,7 +24,7 @@ export const site = {
   hero: {
     heading: {
       tr: "Geçit Danışmanlık ve Temsilcilik'e Hoşgeldiniz",
-      en: 'Welcome to Geçit Consultancy and Representency Ltd. Co.',
+      en: 'Welcome to Geçit Consultancy and Representation Ltd. Co.',
     },
     subheading: {
       tr: 'Cam, seramik ve refrakter endüstrileri için dünya çapında üreticilerin Türkiye temsilcisi.',
@@ -95,5 +95,5 @@ export const site = {
   footerCopyright: (year: number, locale: Locale) =>
     locale === 'tr'
       ? `© Geçit Danışmanlık ve Temsilcilik Ltd. Şti. ${year}`
-      : `© Geçit Consultancy and Representency Ltd. Co. ${year}`,
+      : `© Geçit Consultancy and Representation Ltd. Co. ${year}`,
 } as const;
