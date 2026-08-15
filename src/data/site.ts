@@ -22,10 +22,6 @@ export const site = {
   } satisfies Record<string, Localized>,
 
   hero: {
-    eyebrow: {
-      tr: 'Türkiye Temsilciliği',
-      en: 'Representation in Türkiye',
-    },
     heading: {
       tr: "Geçit Danışmanlık ve Temsilcilik'e Hoşgeldiniz",
       en: 'Welcome to Geçit Consultancy and Representation Ltd. Co.',
