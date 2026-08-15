@@ -60,13 +60,18 @@ export const site = {
     phone: '(+90) 216 450 56 82/84',
     fax: '(+90) 216 450 54 80',
     email: 'info@gecit.net',
-    mapEmbedUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.30923143751!2d29.06548221567112!3d40.97470907930417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac798ca4bdaef%3A0x13e6a8b7e7263345!2zR8O2enRlcGUgTWFoYWxsZXNpLCBBa8SxxZ8gU2suIE5vOjksIDM0NzMwIEthZMSxa8O2eS9Jc3RhbmJ1bA!5e0!3m2!1str!2str!4v1502914940462',
+    mapImage: '/img/office-map.jpg',
+    directionsUrl: 'https://www.google.com/maps?q=40.974709,29.065482',
     labels: {
       phone: { tr: 'Tel', en: 'Phone' },
       fax: { tr: 'Faks', en: 'Fax' },
       email: { tr: 'E-posta', en: 'Email' },
+      directions: { tr: 'Yol Tarifi Al', en: 'Get Directions' },
     } satisfies Record<string, Localized>,
+    mapAttribution: {
+      tr: 'Harita verileri © OpenStreetMap katkıda bulunanlar',
+      en: 'Map data © OpenStreetMap contributors',
+    } satisfies Localized,
   },
 
   wassmer: {
