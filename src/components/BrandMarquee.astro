@@ -22,7 +22,10 @@ const track = [...logos, ...logos];
               src={withBase(logo.src)}
               alt={i < logos.length ? logo.name : ''}
               aria-hidden={i >= logos.length ? 'true' : undefined}
-              loading="lazy"
+              /* Not lazy: the track is translated by CSS, so off-screen plates
+                 never trip the lazy-load heuristic and stay blank as they
+                 scroll into view. */
+              decoding="async"
             />
           </div>
         ))

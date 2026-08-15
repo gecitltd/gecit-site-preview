@@ -82,28 +82,45 @@ const desc = description ?? site.seo.description[locale];
       }
 
       /* Highlights the nav link (home) or quicknav link (detail pages) whose
-         section is currently in view. */
+         section is currently in view.
+
+         Driven by scroll position rather than an IntersectionObserver band: a
+         fast wheel scroll moves further in one frame than a narrow band is
+         tall, so an observer silently skips headings and nothing lights up. */
       function trackActive(links: NodeListOf<HTMLAnchorElement>) {
-        const targets = new Map<Element, HTMLAnchorElement>();
+        const pairs: { link: HTMLAnchorElement; target: HTMLElement }[] = [];
         links.forEach((link) => {
           const id = link.hash.slice(1);
           if (!id) return;
-          const section = document.getElementById(decodeURIComponent(id));
-          if (section) targets.set(section, link);
+          const target = document.getElementById(decodeURIComponent(id));
+          if (target) pairs.push({ link, target });
         });
-        if (targets.size === 0) return;
+        if (pairs.length === 0) return;
 
-        const observer = new IntersectionObserver(
-          (entries) => {
-            for (const entry of entries) {
-              if (!entry.isIntersecting) continue;
-              links.forEach((l) => l.classList.remove('is-active'));
-              targets.get(entry.target)?.classList.add('is-active');
-            }
+        // A little below the nav, so a heading counts as current once it
+        // reaches the top of the readable area.
+        const line = 140;
+        let queued = false;
+
+        const update = () => {
+          queued = false;
+          let current: HTMLAnchorElement | null = null;
+          for (const { link, target } of pairs) {
+            if (target.getBoundingClientRect().top <= line) current = link;
+          }
+          links.forEach((l) => l.classList.toggle('is-active', l === current));
+        };
+
+        update();
+        window.addEventListener(
+          'scroll',
+          () => {
+            if (queued) return;
+            queued = true;
+            requestAnimationFrame(update);
           },
-          { rootMargin: '-20% 0px -70% 0px' },
+          { passive: true },
         );
-        targets.forEach((_link, section) => observer.observe(section));
       }
 
       trackActive(document.querySelectorAll<HTMLAnchorElement>('.nav-links a[href*="#"]'));

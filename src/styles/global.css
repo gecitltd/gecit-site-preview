@@ -187,14 +187,16 @@ h4 {
   transition:
     background 0.35s var(--ease-out),
     border-color 0.35s var(--ease-out),
-    backdrop-filter 0.35s var(--ease-out);
+    box-shadow 0.35s var(--ease-out);
 }
 
+/* Deliberately not backdrop-filter: as a sticky element over scrolling content
+   Chrome composites it from a stale backdrop snapshot, which let page text show
+   through the bar. A near-opaque fill is the dependable version of the effect. */
 .site-nav.is-stuck {
-  background: rgba(4, 16, 31, 0.82);
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  background: var(--navy-950);
   border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(4, 16, 31, 0.35);
 }
 
 .nav-inner {
@@ -310,9 +312,7 @@ h4 {
     top: var(--nav-height);
     left: 0;
     right: 0;
-    background: rgba(4, 16, 31, 0.96);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    background: var(--navy-950);
     flex-direction: column;
     align-items: stretch;
     gap: 0.15rem;
@@ -762,7 +762,7 @@ h4 {
   z-index: -1;
   background: radial-gradient(
     18rem 18rem at var(--mx, 50%) var(--my, 0%),
-    rgba(255, 131, 36, 0.11),
+    rgba(255, 131, 36, 0.07),
     transparent 70%
   );
   opacity: 0;
@@ -1295,8 +1295,6 @@ h4 {
   border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .contact-details .row {
