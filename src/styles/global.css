@@ -479,17 +479,61 @@ h4 {
   transform: translateX(4px);
 }
 
-.btn-ghost {
+/* The two industries are equal halves of the business, so the hero links carry
+   equal weight. Colour distinguishes them rather than ranking them: each takes
+   the same dot the segment chips use — ember for glass, blue for ceramics. */
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.8rem 1.5rem 0.8rem 1.15rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
   background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(255, 255, 255, 0.26);
-  box-shadow: none;
   color: #fff;
+  font-weight: 600;
+  font-size: 0.94rem;
+  letter-spacing: 0.01em;
+  transition:
+    transform 0.25s var(--ease-out),
+    background 0.25s var(--ease-out),
+    border-color 0.25s var(--ease-out);
 }
 
-.btn-ghost:hover {
+.hero-btn::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--dot);
+  box-shadow: 0 0 12px var(--dot-glow);
+}
+
+.hero-btn.is-glass {
+  --dot: var(--grad-ember);
+  --dot-glow: rgba(255, 131, 36, 0.75);
+}
+
+.hero-btn.is-ceramics {
+  --dot: var(--grad-cool);
+  --dot-glow: rgba(43, 131, 255, 0.7);
+}
+
+.hero-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
   background: rgba(255, 255, 255, 0.14);
   border-color: rgba(255, 255, 255, 0.5);
-  box-shadow: none;
+}
+
+.hero-btn .arrow {
+  transition: transform 0.25s var(--ease-out);
+}
+
+.hero-btn:hover .arrow {
+  transform: translateX(4px);
 }
 
 /* ---------- Brand marquee ---------- */
