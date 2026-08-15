@@ -4,6 +4,7 @@ import type { CollectionEntry } from 'astro:content';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import Gallery from './Gallery.astro';
 import { site } from '../data/site';
+import { withBase } from '../lib/url';
 
 interface Props {
   entry: CollectionEntry<'companies'> | CollectionEntry<'companiesEn'>;
@@ -27,8 +28,15 @@ const industryAnchor = entry.data.industry === 'glass' ? 'glass' : 'ceramics';
       <span class="sep" aria-hidden="true">&rsaquo;</span>
       <span>{entry.data.name}</span>
     </p>
-    <h1>{entry.data.name}</h1>
-    <p class="tagline">{entry.data.summary}</p>
+    <div class="company-header-main">
+      <div class="company-logo-frame">
+        <img src={withBase(entry.data.logo)} alt={entry.data.name} />
+      </div>
+      <div>
+        <h1>{entry.data.name}</h1>
+        <p class="tagline">{entry.data.summary}</p>
+      </div>
+    </div>
   </div>
 </div>
 

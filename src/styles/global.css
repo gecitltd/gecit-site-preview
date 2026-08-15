@@ -313,12 +313,49 @@ h4 {
   color: var(--color-border);
 }
 
+.company-header-main {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.company-logo-frame {
+  flex: 0 0 auto;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+}
+
+.company-logo-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .company-header h1 {
   margin: 0 0 0.35rem;
   font-size: clamp(1.6rem, 3.5vw, 2.25rem);
 }
 
+@media (max-width: 500px) {
+  .company-header-main {
+    gap: 1rem;
+  }
+
+  .company-logo-frame {
+    width: 84px;
+    height: 84px;
+  }
+}
+
 .company-header .tagline {
+  margin: 0;
   color: var(--color-text-muted);
   font-size: 1.05rem;
 }
