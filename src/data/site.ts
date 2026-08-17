@@ -91,16 +91,6 @@ export const site = {
     } satisfies Localized,
   },
 
-  wassmer: {
-    name: 'Wassmer Group',
-    logo: '/img/wassmer.png',
-    officialUrl: 'http://www.wassmer.de',
-    summary: {
-      tr: 'Refrakter ve tuğla endüstrisi için proses makina ve ekipmanları',
-      en: 'Process machinery and equipment for the brick and refractory industries',
-    } satisfies Localized,
-  },
-
   productsLabel: { tr: 'Ürünler', en: 'Products' } satisfies Localized,
   moreInfoLabel: { tr: 'Daha Fazla Bilgi', en: 'More Information' } satisfies Localized,
   viewCompaniesLabel: { tr: 'Firmaları Görün', en: 'View Companies' } satisfies Localized,

@@ -3,6 +3,7 @@ name: "LingNan Refractory Co. Ltd."
 industry: glass
 segment: hot-end
 logo: /img/lnref-logo.jpg
+officialUrl: "https://www.lnref.com/"
 summary: "Refractory materials for the glass industry"
 gallery:
   - /img/lingnan/lingnan1.png

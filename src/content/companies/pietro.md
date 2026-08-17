@@ -3,7 +3,7 @@ name: "Pietro Bonaiti S.r.l."
 industry: glass
 segment: cold-end
 logo: /img/pietro-bonaiti.jpg
-officialUrl: "http://www.pietrobonaiti.com"
+officialUrl: "https://www.pietrobonaiti.com/en/"
 summary: "Soğutma ve dekor fırınları için tel bant, konveyör bantlar ve sessiz zincir"
 summaryEn: "Wire Belts and Chain Conveyors for Cooling and Decorating Ovens"
 gallery:

@@ -3,7 +3,7 @@ name: "Tecno 5 s.r.l."
 industry: glass
 segment: cold-end
 logo: /img/tecno5.jpg
-officialUrl: "http://www.tecno5.it"
+officialUrl: "https://www.tecno5.it/"
 summary: "Cam Mamüller Üzerine Renkli Dekorlama Makinaları"
 summaryEn: "Machines for Printing on Glass Items"
 gallery:

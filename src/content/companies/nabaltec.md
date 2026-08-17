@@ -2,7 +2,7 @@
 name: "Nabaltec GmbH"
 industry: ceramics
 logo: /img/nabaltec.gif
-officialUrl: "http://www.nabaltec.de/index.php?lang=en"
+officialUrl: "https://www.nabaltec.de/"
 summary: "Refrakter sanayii için aluminyum oksit bazlı hammaddeler"
 summaryEn: "Aluminiumoxide raw materials for refractory and ceramic industry"
 gallery:

@@ -3,7 +3,7 @@ name: "Antonini Fosco & Figli S.R.L."
 industry: glass
 segment: cold-end
 logo: /img/antonini.png
-officialUrl: "http://www.antoninisrl.com/eng/"
+officialUrl: "https://www.antoninisrl.com/en/index"
 summary: "Tavlama ve dekorlama fırınları"
 summaryEn: "Annealing & decoration lehrs"
 gallery:

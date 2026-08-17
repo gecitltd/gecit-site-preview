@@ -2,7 +2,7 @@
 name: "GK Graphit Kropfmühl GmbH"
 industry: ceramics
 logo: /img/gk-graphite.jpg
-officialUrl: "https://www.gk-graphite.com/en/home/"
+officialUrl: "https://www.gk-graphite.com/en"
 summary: "Refrakter, ısı yalıtımı, toz metalurjisi vb. çeşitli sektörlere yönelik grafit esaslı hammaddeler ve süspansiyonlar"
 gallery:
   - /img/gk-graphite/Carbon_brush.jpg

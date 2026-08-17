@@ -3,7 +3,7 @@ name: "Rurex Stahl GmbH"
 industry: glass
 segment: hot-end
 logo: /img/rurex.gif
-officialUrl: "http://www.rurex.de/english/index.php"
+officialUrl: "https://rurex.de/en/index.php"
 summary: "Damla Kesme ve Cam Şekillendirme Aletleri"
 summaryEn: "Forming Equipments and Tools"
 gallery:

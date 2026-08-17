@@ -3,7 +3,7 @@ name: "Falorni Tech"
 industry: glass
 segment: hot-end
 logo: /img/falorni.png
-officialUrl: "https://www.falorniglass.com"
+officialUrl: "https://www.falornitech.com/"
 summary: "Cam ergitme teknolojileri ve EPC projeleri"
 summaryEn: "Glass melting technologies and EPC projects"
 gallery:

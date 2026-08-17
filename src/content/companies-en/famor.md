@@ -4,26 +4,12 @@ industry: glass
 segment: hot-end
 logo: /img/famor.jpg
 officialUrl: "https://www.famoreng.com"
-summary: "Glass forming machinery and engineering"
+summary: "Italian Excellence in Glass Forming Solutions"
 gallery:
   - /img/famor/famor1.jpg
   - /img/famor/famor2.jpg
   - /img/famor/famor3.jpg
+  - /img/famor/famor4.jpg
 ---
 
-**Famor Engineering** has been manufacturing glass machinery since 1977. With a very broad portfolio of glass equipment, the company also supplies production technology and high-technology machinery.
-
-- Machine manufacturing
-  - Feeders
-  - Forming
-  - Fire polishing
-  - Grinding and polishing
-- Engineering and know-how
-  - Tableware products
-  - Technical and special glass products
-  - Pharmaceutical packaging products
-- Overhaul of machines and parts
-  - H28
-  - Blowing machines
-  - Hot-end glass process equipment
-- Prototypes and special equipment, built to customer requirements
+Specialized in glass forming technology since 1977, **Famor Engineering**—a Falorni Group company—delivers advanced solutions for tableware, container, insulator, and technical glass production. Through in-house manufactured servo presses, smart forming lines, spare parts, and IS technical services, we enhance efficiency and precision across your manufacturing lines.

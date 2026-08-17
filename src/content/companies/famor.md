@@ -3,28 +3,14 @@ name: "Famor Engineering S.r.l."
 industry: glass
 segment: hot-end
 logo: /img/famor.jpg
-officialUrl: "https://www.famoreng.com"
-summary: "Cam şekillendirme makinaları ve mühendislik"
-summaryEn: "Glass forming machinery and engineering"
+officialUrl: "https://famoreng.com/"
+summary: "Cam Şekillendirme Teknolojilerinde İtalyan Uzmanlığı"
+summaryEn: "Italian Excellence in Glass Forming Solutions"
 gallery:
   - /img/famor/famor1.jpg
   - /img/famor/famor2.jpg
   - /img/famor/famor3.jpg
+  - /img/famor/famor4.jpg
 ---
 
-**Famor Engineering** 1977'den beri cam makineleri imal etmektedir. Çok geniş bir cam ekipman portföyüne sahip firma, aynı zamanda üretim teknolojisi ve yüksek teknoloji makinaları da üretebilmektedir.
-
-- Makine üretimi
-  - Feeder
-  - Şekil verme
-  - Alevle ağız yakma
-  - Taşlama ve cilalama
-- Mühendislik ve know-how
-  - Züccaciye ürünleri
-  - Teknik ve özel cam ürünleri
-  - Ecza ambalaj ürünleri
-- Makine ve parçaların revizyonu
-  - H28
-  - Üfleme makinaları
-  - Sıcak uçtaki cam proses ekipmanları
-- Prototip ve özel ekipmanlar (müşteri ihtiyacına göre)
+1977'den bu yana cam şekillendirme teknolojilerinde uzmanlaşan **Famor Engineering**, Falorni Group bünyesinde züccaciye, ambalaj, izolatör ve teknik cam sektörlerine yenilikçi çözümler sunmaktadır. Kendi tesislerimizde ürettiğimiz servo presler, akıllı şekillendirme hatları, yedek parça ve IS makine teknik servis hizmetlerimizle üretiminize yüksek verimlilik ve hassasiyet kazandırıyoruz.

@@ -13,14 +13,6 @@ const { locale } = Astro.props;
 const { hotEnd, coldEnd, ceramics } = await getGroupedCompanies();
 const enById = await getEnglishById();
 
-const wassmerCard = {
-  href: site.wassmer.officialUrl,
-  logo: site.wassmer.logo,
-  name: site.wassmer.name,
-  blurb: site.wassmer.summary[locale],
-  external: true,
-};
-
 // Splits the headline around the accented substring so it can carry the
 // gradient fill without hard-coding markup into the translated string.
 const heading = site.hero.heading[locale];
@@ -35,9 +27,10 @@ const headingParts =
         after: heading.slice(accentAt + accent.length),
       };
 
-const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics]
-  .map((entry) => ({ src: entry.data.logo, name: entry.data.name }))
-  .concat({ src: site.wassmer.logo, name: site.wassmer.name });
+const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics].map((entry) => ({
+  src: entry.data.logo,
+  name: entry.data.name,
+}));
 ---
 
 <section class="hero">
@@ -120,7 +113,7 @@ const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics]
 
     <div class="card-grid">
       {
-        ceramics.slice(0, 4).map((entry, i) => {
+        ceramics.map((entry, i) => {
           const card = getCardProps(entry, locale, enById);
           return (
             <CompanyCard
@@ -130,29 +123,6 @@ const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics]
               blurb={card.blurb}
               external={card.external}
               index={i}
-            />
-          );
-        })
-      }
-      <CompanyCard
-        href={wassmerCard.href}
-        logo={wassmerCard.logo}
-        name={wassmerCard.name}
-        blurb={wassmerCard.blurb}
-        external={wassmerCard.external}
-        index={4}
-      />
-      {
-        ceramics.slice(4).map((entry, i) => {
-          const card = getCardProps(entry, locale, enById);
-          return (
-            <CompanyCard
-              href={card.href}
-              logo={entry.data.logo}
-              name={entry.data.name}
-              blurb={card.blurb}
-              external={card.external}
-              index={i + 5}
             />
           );
         })

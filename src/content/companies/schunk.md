@@ -2,7 +2,7 @@
 name: "Schunk Ingenieurkeramik GmbH"
 industry: ceramics
 logo: /img/schunk.jpg
-officialUrl: "http://www.schunk-sik.com"
+officialUrl: "https://www.schunk-group.com/technical-ceramics/de"
 summary: "Seramik fırınları için silisyum karbür refrakterler, bek tüpleri ve aluminyum oksit malzemeler"
 summaryEn: "SiC beams, profiles, burners, batts and setters for ceramic kilns"
 gallery:

@@ -1,9 +1,9 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 
-const HOT_END_ORDER = ['lingnan', 'falorni', 'famor', 'rurex'];
+const HOT_END_ORDER = ['lingnan', 'falorni', 'famor', 'rurex', 'rondot', 'vidremot'];
 const COLD_END_ORDER = ['iris', 'antonini', 'pietro', 'tecno5'];
-const CERAMICS_ORDER = ['nabaltec', 'schunk', 'estiva', 'rwsilicium', 'gk-graphite'];
+const CERAMICS_ORDER = ['nabaltec', 'schunk', 'estiva', 'rwsilicium', 'gk-graphite', 'xinda'];
 
 function byOrder(byId: Record<string, CollectionEntry<'companies'>>, order: string[]) {
   return order.map((id) => byId[id]).filter(Boolean);

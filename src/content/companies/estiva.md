@@ -2,7 +2,7 @@
 name: "Estiva Refratarios"
 industry: ceramics
 logo: /img/estiva/estiva-logo.jpg
-officialUrl: "http://www.estivarefratarios.com.br"
+officialUrl: "https://estivarefratarios.com.br/en/"
 summary: "Seramik fırınları için malzemeler ve seramik çubuklar"
 summaryEn: "Kiln furniture and ceramic rollers"
 gallery:

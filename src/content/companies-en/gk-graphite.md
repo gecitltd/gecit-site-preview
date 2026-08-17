@@ -2,7 +2,7 @@
 name: "GK Graphit Kropfmühl GmbH"
 industry: ceramics
 logo: /img/gk-graphite.jpg
-officialUrl: "https://www.gk-graphite.com/en/home/"
+officialUrl: "https://www.gk-graphite.com/en"
 summary: "Graphite raw materials for refractory, heat insulation, powder metallurgy etc. and suspensions based on graphite"
 gallery:
   - /img/gk-graphite/Carbon_brush.jpg
