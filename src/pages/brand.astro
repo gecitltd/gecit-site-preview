@@ -1,0 +1,167 @@
+---
+import { withBase } from '../lib/url';
+import '../styles/global.css';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Brand assets — Geçit</title>
+  </head>
+  <body class="brand-page">
+    <div class="container brand-wrap">
+      <h1>Geçit — brand assets</h1>
+      <p class="lede">Reference page for the logo lockup, not linked from the site. Every mark below is the actual file in <code>/img/</code>, not a mockup.</p>
+
+      <h2>Primary — no tagline</h2>
+      <p class="sub">Used in the nav and footer. White fill for dark surfaces, ink gradient for light ones.</p>
+      <div class="swatch-row">
+        <div class="swatch on-navy">
+          <img src={withBase('/img/gecit-lockup.svg')} alt="Geçit" />
+          <span class="file">gecit-lockup.svg</span>
+        </div>
+        <div class="swatch on-white">
+          <img src={withBase('/img/gecit-lockup-onlight.svg')} alt="Geçit" />
+          <span class="file">gecit-lockup-onlight.svg</span>
+        </div>
+      </div>
+
+      <h2>With tagline</h2>
+      <p class="sub">Icon, name, and "Danışmanlık ve Temsilcilik" underneath. Not currently used on the site — the tagline reads too small at nav/footer height — but kept here for print, business cards, or anywhere the mark runs larger.</p>
+      <div class="swatch-row">
+        <div class="swatch on-navy">
+          <img src={withBase('/img/gecit-lockup-tagline.svg')} alt="Geçit Danışmanlık ve Temsilcilik" />
+          <span class="file">gecit-lockup-tagline.svg</span>
+        </div>
+        <div class="swatch on-white">
+          <img src={withBase('/img/gecit-lockup-tagline-onlight.svg')} alt="Geçit Danışmanlık ve Temsilcilik" />
+          <span class="file">gecit-lockup-tagline-onlight.svg</span>
+        </div>
+      </div>
+
+      <h2>Scale check</h2>
+      <p class="sub">The no-tagline mark, from nav size down to favicon size.</p>
+      <div class="sizes">
+        <figure><img src={withBase('/img/gecit-lockup.svg')} style="height:64px;" alt="Geçit" /><figcaption>64px</figcaption></figure>
+        <figure><img src={withBase('/img/gecit-lockup.svg')} style="height:42px;" alt="Geçit" /><figcaption>42px — nav</figcaption></figure>
+        <figure><img src={withBase('/img/gecit-lockup.svg')} style="height:36px;" alt="Geçit" /><figcaption>36px — footer</figcaption></figure>
+        <figure><img src={withBase('/img/gecit-lockup.svg')} style="height:20px;" alt="Geçit" /><figcaption>20px</figcaption></figure>
+      </div>
+
+      <h2>Notes</h2>
+      <ul class="notes">
+        <li>All four files have the wordmark outlined to fixed vector paths rather than live text — they're plain <code>&lt;img&gt;</code> assets, so there's no webfont for the browser to load, and they render identically everywhere.</li>
+        <li>The two dark-surface files hardcode white (<code>#f3f7fc</code>) rather than using <code>currentColor</code> — both the nav and footer are always on the navy band, so there was no need for the extra flexibility.</li>
+        <li>The light-surface files use a gradient icon (<code>#04101f → #1d4372</code>, two steps up the site's own navy scale) with flat <code>#04101f</code> type.</li>
+        <li>Source icon: <a href={withBase('/img/gecit-icon.png')}>gecit-icon.png</a> (also the favicon). Original full-size source markup lives in the repo root as <code>gecit-logo.svg</code>.</li>
+      </ul>
+    </div>
+
+    <style>
+      .brand-page {
+        background: var(--paper-2);
+        min-height: 100vh;
+      }
+      .brand-wrap {
+        max-width: 880px;
+        padding-block: 4rem 6rem;
+      }
+      h1 {
+        font-family: var(--font-head);
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+        letter-spacing: -0.02em;
+        margin: 0 0 0.5rem;
+      }
+      h2 {
+        font-family: var(--font-head);
+        font-size: 1.2rem;
+        margin: 3rem 0 0.35rem;
+      }
+      .lede {
+        color: var(--text-muted);
+        max-width: 62ch;
+        margin: 0 0 1rem;
+      }
+      .sub {
+        color: var(--text-muted);
+        font-size: 0.94rem;
+        max-width: 62ch;
+        margin: 0 0 1.25rem;
+      }
+      .swatch-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      .swatch {
+        border-radius: var(--radius);
+        border: 1px solid var(--line);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 2.5rem 1.5rem 1.25rem;
+      }
+      .swatch.on-navy {
+        background: var(--navy-950);
+      }
+      .swatch.on-white {
+        background: #ffffff;
+      }
+      .swatch img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+      }
+      .swatch .file {
+        font-size: 0.76rem;
+        font-family: ui-monospace, 'SFMono-Regular', monospace;
+        color: var(--on-navy-muted);
+      }
+      .swatch.on-white .file {
+        color: var(--text-muted);
+      }
+      .sizes {
+        display: flex;
+        align-items: flex-end;
+        gap: 2rem;
+        background: var(--navy-950);
+        border-radius: var(--radius);
+        padding: 2rem;
+        flex-wrap: wrap;
+      }
+      .sizes figure {
+        margin: 0;
+        text-align: center;
+      }
+      .sizes figcaption {
+        margin-top: 0.5rem;
+        font-size: 0.72rem;
+        color: var(--on-navy-muted);
+      }
+      .notes {
+        color: var(--text-muted);
+        font-size: 0.92rem;
+        line-height: 1.65;
+        max-width: 68ch;
+        padding-left: 1.15rem;
+      }
+      .notes li {
+        margin-bottom: 0.6rem;
+      }
+      .notes code {
+        background: var(--paper-3);
+        padding: 0.1rem 0.35rem;
+        border-radius: 5px;
+        font-size: 0.85em;
+      }
+      @media (max-width: 640px) {
+        .swatch-row {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </body>
+</html>
