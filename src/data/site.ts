@@ -78,7 +78,7 @@ export const site = {
     fax: '(+90) 216 450 54 80',
     email: 'info@gecit.net',
     mapImage: '/img/office-map.jpg',
-    directionsUrl: 'https://www.google.com/maps?q=40.974709,29.065482',
+    directionsUrl: 'https://www.google.com/maps/search/?api=1&query=Ak%C4%B1%C5%9F+Sok.+9%2F35%2C+G%C3%B6ztepe%2C+Kad%C4%B1k%C3%B6y%2C+%C4%B0stanbul+34730',
     labels: {
       phone: { tr: 'Tel', en: 'Phone' },
       fax: { tr: 'Faks', en: 'Fax' },
