@@ -52,10 +52,10 @@ import '../styles/global.css';
 
       <h2>Notes</h2>
       <ul class="notes">
-        <li>All four files have the wordmark outlined to fixed vector paths rather than live text — they're plain <code>&lt;img&gt;</code> assets, so there's no webfont for the browser to load, and they render identically everywhere.</li>
+        <li><strong>Temporary:</strong> the wordmark and tagline are currently live <code>&lt;text&gt;</code> (Outfit SemiBold / Inter SemiBold, fonts subsetted and embedded as data URIs) instead of outlined paths, to make kerning/spacing edits easy. They'll be re-outlined to fixed paths before this ships for real — plain <code>&lt;img&gt;</code> usage in Nav/Footer shouldn't depend on a webfont loading. Both fonts need <code>style="font-kerning:none"</code> on the <code>&lt;text&gt;</code> — Outfit and Inter both ship a GPOS 'kern' table that otherwise re-kerns pairs like "EÇ" on top of the flat letter-spacing. To re-outline, walk each glyph with fontTools' <code>SVGPathPen</code>, advancing by its hmtx advance width plus the tracking value.</li>
         <li>The two dark-surface files hardcode white (<code>#f3f7fc</code>) rather than using <code>currentColor</code> — both the nav and footer are always on the navy band, so there was no need for the extra flexibility.</li>
-        <li>The light-surface files use a gradient icon (<code>#04101f → #1d4372</code>, two steps up the site's own navy scale) with flat <code>#04101f</code> type.</li>
-        <li>Source icon: <a href={withBase('/img/gecit-icon.png')}>gecit-icon.png</a> (also the favicon). Original full-size source markup lives in the repo root as <code>gecit-logo.svg</code>.</li>
+        <li>The light-surface files use a gradient icon (<code>#1c2c43 → #1a5076</code>) with a matching gradient swoosh underline; the swoosh fades to white on dark surfaces instead.</li>
+        <li>Favicon: <a href={withBase('/img/gecit-icon.png')}>gecit-icon.png</a>.</li>
       </ul>
     </div>
 
