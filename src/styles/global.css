@@ -1028,6 +1028,55 @@ h4 {
   box-shadow: var(--shadow-sm);
 }
 
+.company-body .img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.company-body .img-row img {
+  margin: 0;
+  flex: 1 1 260px;
+  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.company-body .site-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  margin: 0.25rem 0 1rem;
+  border-radius: 999px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  color: var(--navy-700);
+  font-size: 0.86rem;
+  font-weight: 600;
+  transition:
+    background 0.2s var(--ease-out),
+    border-color 0.2s var(--ease-out),
+    color 0.2s var(--ease-out);
+}
+
+.company-body .site-link:hover {
+  background: #fff2e8;
+  border-color: var(--ember-400);
+  color: var(--ember-600);
+  text-decoration: none;
+}
+
+.company-body .site-link .arrow {
+  font-size: 0.8em;
+  transition: transform 0.2s var(--ease-out);
+}
+
+.company-body .site-link:hover .arrow {
+  transform: translate(2px, -2px);
+}
+
 .company-body ul,
 .company-body ol {
   padding-left: 1.15rem;
