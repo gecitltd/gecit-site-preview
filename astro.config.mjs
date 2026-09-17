@@ -9,19 +9,28 @@ const site = isStaging ? 'https://gecitltd.github.io/gecit-site-preview/' : 'htt
 const base = isStaging ? '/gecit-site-preview/' : '/';
 
 /** Rewrites root-absolute image paths inside Markdown content (e.g. "/img/foo.png")
- *  to respect `base`, since remark/rehype don't know about it otherwise. */
+ *  to respect `base`, since remark/rehype don't know about it otherwise. Handles both
+ *  genuine Markdown image syntax (parsed into real `img` elements) and raw HTML
+ *  `<img>` tags written directly in the Markdown source, which at this point in the
+ *  pipeline are still unparsed `raw` text nodes rather than elements. */
 function rehypeBaseImages() {
   const prefix = base.replace(/\/$/, '');
   return (tree) => {
-    visit(tree, 'element', (node) => {
+    if (!prefix) return;
+    visit(tree, (node) => {
       if (
+        node.type === 'element' &&
         node.tagName === 'img' &&
         typeof node.properties?.src === 'string' &&
         node.properties.src.startsWith('/') &&
-        prefix &&
         !node.properties.src.startsWith(prefix)
       ) {
         node.properties.src = prefix + node.properties.src;
+      } else if (node.type === 'raw' && typeof node.value === 'string' && node.value.includes('<img')) {
+        node.value = node.value.replace(
+          /(<img\b[^>]*\bsrc=")(\/[^"]*)"/g,
+          (match, pre, src) => (src.startsWith(prefix) ? match : `${pre}${prefix}${src}"`),
+        );
       }
     });
   };
