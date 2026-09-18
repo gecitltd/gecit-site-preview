@@ -1,5 +1,5 @@
 ---
-name: "Antonini Fosco & Figli S.R.L."
+name: "Antonini Srl"
 industry: glass
 segment: cold-end
 logo: /img/antonini.png
@@ -12,7 +12,7 @@ gallery:
   - /img/antonini/antonini3.jpg
 ---
 
-**Antonini Fosco & Figli Srl** firması cam ambalaj ve züccaciye ürünlerinin tavlanması ve cam mamul dekorlamada kullanılan fırınları üretmektedir. Antonini fırınları, yapısal teknolojileri ve üstün teknik özellikleri sayesinde cam sektöründe önemli bir seviyeye gelmiştir. Dünyada yaklaşık 700 adet Antonini fırını çalışmaktadır.
+**Antonini Srl** firması cam ambalaj ve züccaciye ürünlerinin tavlanması ve cam mamul dekorlamada kullanılan fırınları üretmektedir. Antonini fırınları, yapısal teknolojileri ve üstün teknik özellikleri sayesinde cam sektöründe önemli bir seviyeye gelmiştir. Dünyada yaklaşık 700 adet Antonini fırını çalışmaktadır.
 
 Antonini fırınlarının:
 

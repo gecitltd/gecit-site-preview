@@ -1,5 +1,5 @@
 ---
-name: "Antonini Fosco & Figli S.R.L."
+name: "Antonini Srl"
 industry: glass
 segment: cold-end
 logo: /img/antonini.png
@@ -11,7 +11,7 @@ gallery:
   - /img/antonini/antonini3.jpg
 ---
 
-**Antonini Fosco & Figli Srl** manufactures the lehrs used for annealing container and tableware glass and for decorating finished glass products. Thanks to their structural technology and superior technical characteristics, Antonini lehrs have reached a significant position in the glass sector. Around 700 Antonini lehrs are in operation worldwide.
+**Antonini Srl** manufactures the lehrs used for annealing container and tableware glass and for decorating finished glass products. Thanks to their structural technology and superior technical characteristics, Antonini lehrs have reached a significant position in the glass sector. Around 700 Antonini lehrs are in operation worldwide.
 
 Antonini lehrs offer:
 
