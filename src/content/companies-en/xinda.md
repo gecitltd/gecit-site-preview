@@ -1,6 +1,7 @@
 ---
 name: "Xinda Refractory"
-industry: ceramics
+industry: glass
+segment: hot-end
 logo: /img/xinda.png
 officialUrl: "https://www.xd-refractory.com/"
 summary: "Silica refractories for float glass, container glass and industrial furnaces"
