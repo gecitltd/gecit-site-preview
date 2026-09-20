@@ -24,7 +24,7 @@ export const site = {
   hero: {
     heading: {
       tr: "Geçit Danışmanlık ve Temsilcilik'e Hoşgeldiniz",
-      en: 'Welcome to Geçit Consultancy and Representation Ltd. Co.',
+      en: 'Welcome to Geçit Consultancy and Representation',
     },
     // Substring of `heading` rendered with the gradient fill. Kept as data so the
     // headline copy itself stays a single translatable sentence.
