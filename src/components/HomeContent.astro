@@ -60,7 +60,7 @@ const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics].map((entry) => ({
     <div class="section-header" data-reveal>
       <p class="section-eyebrow">{site.sectionEyebrows.glass[locale]}</p>
       <h2>{site.about.glass.title[locale]}</h2>
-      <p>{site.about.glass.body[locale]}</p>
+      {site.about.glass.body[locale].map((paragraph) => <p>{paragraph}</p>)}
     </div>
 
     <h3 class="segment-heading is-hot" data-reveal>{site.glassSegments['hot-end'][locale]}</h3>
@@ -108,7 +108,7 @@ const marqueeLogos = [...hotEnd, ...coldEnd, ...ceramics].map((entry) => ({
     <div class="section-header" data-reveal>
       <p class="section-eyebrow">{site.sectionEyebrows.ceramics[locale]}</p>
       <h2>{site.about.ceramics.title[locale]}</h2>
-      <p>{site.about.ceramics.body[locale]}</p>
+      {site.about.ceramics.body[locale].map((paragraph) => <p>{paragraph}</p>)}
     </div>
 
     <div class="card-grid">

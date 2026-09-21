@@ -53,18 +53,30 @@ export const site = {
     glass: {
       title: { tr: 'Cam Endüstrisi', en: 'Glass Industry' },
       body: {
-        tr: 'Şirketimiz, cam üretim prosesinde sıcak uçtan soğuk uca kadar dünya çapındaki çeşitli firmalarla çalışmaktadır. Sıcak uçta refrakter malzemeler, cam ev eşyası şekillendirme sistemleri, IS makinası göbek mekanizmaları ve damla kesme bıçakları uzmanlık alanlarımızdandır. Portföyümüz, soğuk uçta ise hat üstü kontrol sistemleri, cam dekor makinaları ve soğutma-dekor fırını bantları konularını kapsamaktadır.',
-        en: 'Our company works with international companies across the glass production process, from hot-end to cold-end. Our expertise covers refractory materials, glass tableware forming systems, IS machine parison mechanisms and shear blades on the hot end, and inline inspection systems, glass decoration machines and annealing/decoration lehr belts on the cold end.',
+        tr: [
+          'Şirketimiz, cam üretim prosesinde sıcak uçtan soğuk uca kadar dünya çapındaki çeşitli firmalarla çalışmaktadır.',
+          'Sıcak uçta refrakter malzemeler, IS makinası ekipmanları, yağlama sistemleri, damla kesme bıçakları, uzun ömürlü ve gelişmiş kalıp ve kalıp bakım, işleme, ölçme sistemleri, cam ev eşyası şekillendirme sistemleri, uzmanlık alanlarımızdandır.',
+          'Portföyümüz, soğuk uçta ise tavlama-dekor-temper fırınları, hat üstü kameralı kontrol sistemleri, cam dekor makinaları ve soğutma-dekor fırını bantları konularını kapsamaktadır.',
+        ],
+        en: [
+          'Our company works with leading global manufacturers across the entire glass production process, covering solutions from the hot end to the cold end.',
+          'In the Hot End, our expertise spans high-performance refractory materials, I.S. machine equipment, automated lubrication systems, shear blades, advanced long-life mould equipment, as well as comprehensive systems for mould maintenance, machining, inspection, and tableware forming.',
+          'In the Cold End, our portfolio includes annealing-decoration-tempering lehrs, advanced online camera inspection systems, glass decorating machinery, and high-durability belts for annealing and decorating lehrs.',
+        ],
       },
     },
     ceramics: {
       title: { tr: 'Seramik-Refrakter Endüstrisi', en: 'Ceramics-Refractory Industry' },
       body: {
-        tr: 'Firmamız, seramik ve refrakter malzeme üretim süreçleriyle ilgili faaliyet göstermektedir. Bu kapsamda, seramik pişirim fırınları için kordiyalit, mullit ve silisyum karbür refrakter malzemeler üreten, alanında uzman üreticilerle iş birliği yapmaktadır. Ayrıca, refrakter ve porselen üretimi için alumina ve mikrosilika hammaddeleri sağlamaktadır.',
-        en: 'Our firm is active in ceramics and refractory material production processes, working with specialist manufacturers of cordierite, mullite and silicon carbide refractories for ceramic kilns, and supplying alumina and microsilica raw materials for refractory and porcelain production.',
+        tr: [
+          'Firmamız, seramik ve refrakter malzeme üretim süreçleriyle ilgili faaliyet göstermektedir. Bu kapsamda, seramik pişirim fırınları için kordiyalit, mullit ve silisyum karbür refrakter malzemeler üreten, alanında uzman üreticilerle iş birliği yapmaktadır. Ayrıca, refrakter ve porselen üretimi için alumina ve mikrosilika hammaddeleri sağlamaktadır.',
+        ],
+        en: [
+          'Our firm is active in ceramics and refractory material production processes, working with specialist manufacturers of cordierite, mullite and silicon carbide refractories for ceramic kilns, and supplying alumina and microsilica raw materials for refractory and porcelain production.',
+        ],
       },
     },
-  } satisfies Record<string, { title: Localized; body: Localized }>,
+  } satisfies Record<string, { title: Localized; body: Localized<string[]> }>,
 
   glassSegments: {
     'hot-end': { tr: 'Sıcak Uç', en: 'Hot End' },
