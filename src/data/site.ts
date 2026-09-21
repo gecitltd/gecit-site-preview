@@ -69,10 +69,12 @@ export const site = {
       title: { tr: 'Seramik-Refrakter Endüstrisi', en: 'Ceramics-Refractory Industry' },
       body: {
         tr: [
-          'Firmamız, seramik ve refrakter malzeme üretim süreçleriyle ilgili faaliyet göstermektedir. Bu kapsamda, seramik pişirim fırınları için kordiyalit, mullit ve silisyum karbür refrakter malzemeler üreten, alanında uzman üreticilerle iş birliği yapmaktadır. Ayrıca, refrakter ve porselen üretimi için alumina ve mikrosilika hammaddeleri sağlamaktadır.',
+          'Firmamız, seramik ve refrakter malzeme üretim süreçleriyle ilgili faaliyet göstermektedir. Bu kapsamda, seramik pişirim fırınları için kordiyerit, mullit ve silisyum karbür refrakter malzemeler üreten, alanında uzman üreticilerle iş birliği yapmaktadır.',
+          'Ayrıca, refrakter ve porselen üretimi için alumina, mikrosilika ve grafit hammaddeleri sağlamaktadır.',
         ],
         en: [
-          'Our firm is active in ceramics and refractory material production processes, working with specialist manufacturers of cordierite, mullite and silicon carbide refractories for ceramic kilns, and supplying alumina and microsilica raw materials for refractory and porcelain production.',
+          'Our company is actively engaged in the manufacturing processes of ceramics and refractory materials. Within this scope, we collaborate with industry-leading manufacturers specialized in producing high-performance cordierite, mullite, and silicon carbide (SiC) refractory materials designed for ceramic firing kilns.',
+          'Additionally, we supply premium-grade raw materials—including alumina, microsilica, and graphite—for the production of refractories and advanced porcelain products.',
         ],
       },
     },
