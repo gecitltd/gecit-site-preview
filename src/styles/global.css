@@ -1043,6 +1043,25 @@ h4 {
   object-fit: cover;
 }
 
+.company-body .img-row .img-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 1 260px;
+  max-width: 300px;
+}
+
+.company-body .img-row .img-col img {
+  flex: none;
+  max-width: none;
+  height: auto;
+}
+
+.company-body .img-row .img-tall {
+  align-self: stretch;
+  height: auto;
+}
+
 .company-body .site-link {
   display: inline-flex;
   align-items: center;
