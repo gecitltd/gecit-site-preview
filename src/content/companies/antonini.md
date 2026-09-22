@@ -4,12 +4,12 @@ industry: glass
 segment: cold-end
 logo: /img/antonini.png
 officialUrl: "https://www.antoninisrl.com/en/index"
-summary: "Tavlama ve dekorlama fırınları"
-summaryEn: "Annealing & decoration lehrs"
+summary: "Tavlama, temperleme ve dekorlama fırınları"
+summaryEn: "Annealing, tempering & decoration lehrs"
 gallery: []
 ---
 
-**Antonini Srl** firması cam ambalaj ve züccaciye ürünlerinin tavlanması ve cam mamul dekorlamada kullanılan fırınları üretmektedir. Antonini fırınları, yapısal teknolojileri ve üstün teknik özellikleri sayesinde cam sektöründe önemli bir seviyeye gelmiştir. Dünyada yaklaşık 700 adet Antonini fırını çalışmaktadır.
+**Antonini Srl** firması cam ambalaj ve züccaciye ürünlerinin tavlanması, temperlenmesi ve cam mamul dekorlamada kullanılan fırınları üretmektedir. Antonini fırınları, yapısal teknolojileri ve üstün teknik özellikleri sayesinde cam sektöründe önemli bir seviyeye gelmiştir. Dünyada 2000 adetten fazla Antonini fırını çalışmaktadır.
 
 Antonini fırınlarının:
 

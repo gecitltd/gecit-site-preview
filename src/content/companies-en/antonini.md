@@ -4,11 +4,11 @@ industry: glass
 segment: cold-end
 logo: /img/antonini.png
 officialUrl: "http://www.antoninisrl.com/eng/"
-summary: "Annealing & decoration lehrs"
+summary: "Annealing, tempering & decoration lehrs"
 gallery: []
 ---
 
-**Antonini Srl** manufactures the lehrs used for annealing container and tableware glass and for decorating finished glass products. Thanks to their structural technology and superior technical characteristics, Antonini lehrs have reached a significant position in the glass sector. Around 700 Antonini lehrs are in operation worldwide.
+**Antonini Srl** manufactures the lehrs used for annealing and tempering container and tableware glass and for decorating finished glass products. Thanks to their structural technology and superior technical characteristics, Antonini lehrs have reached a significant position in the glass sector. Around 2000 Antonini lehrs are in operation worldwide.
 
 Antonini lehrs offer:
 
