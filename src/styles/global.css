@@ -1016,6 +1016,12 @@ h4 {
   background: var(--grad-ember);
 }
 
+.company-body h3 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  scroll-margin-top: calc(var(--nav-height) + 16px);
+}
+
 .company-body h2:first-child {
   margin-top: 0;
   padding-top: 0;

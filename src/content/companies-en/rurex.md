@@ -10,30 +10,57 @@ gallery:
   - /img/rurex/rurex2.jpg
 ---
 
-**Rurex-Stahl Dr. Otto Kukla GmbH** began trading in special stainless steel materials in 1949 and today manufactures for the glass industry worldwide. With around 20 employees across its two plants — in Erkrath near Düsseldorf and in Gelsenkirchen — its turnover reached 3.5 million euros in 2003. That year it exported 70% of its production, more than half of it to countries outside the EU. **RUREX** is the market leader in building complete production lines for formed glass manufacturing. It produces heat- and wear-resistant spare parts for the container glass industry worldwide, in particular springs, plates and shear blades for high-speed IS machines.
+Founded in 1949 as a trading company for special stainless steel materials, **Rurex-Stahl Dr. Otto Kukla GmbH** today operates worldwide manufacturing facilities for the glass industry at its two plants in Erkrath (near Düsseldorf) and Gelsenkirchen. In the container glass sector, the company produces heat- and wear-resistant spare parts, such as springs, plates, and shear blades, specifically designed for high-speed IS machines. In the flat glass sector, Rurex is a technology leader providing customised machinery and complete production lines for solar glass, cast glass, wired glass, and profile glass.
 
-## Shear Blades
+## Container Glass Group (Hollow Glass)
+
+### Shear Blades
 
 RUREX shear blades are designed for high-speed IS machines. A special alloy of high hardness and durability is used for this purpose, which guarantees high performance through a very fine grain size, high elasticity even at very high temperatures, freedom from rust and corrosion resistance, and good compatibility with all biological lubricants of high water content.
 
 Thanks to a patented special heat treatment, the cutting section is extremely hard while the clamping section retains the resilience of a spring. This returns the blades to their original position after every cut. They do not bend, and high speeds of up to 190 cuts per minute can be reached without any trouble.
 
-![Shear blade](/img/rurex/messer.jpg)
+<div class="img-row">
+<img src="/img/rurex/shear-blades.jpg" alt="Shear blades" width="400" />
+<img src="/img/rurex/shear-blades-2.jpg" alt="Shear blades, mounted" width="400" />
+</div>
 
-## Flat Springs
+### Flat Springs
 
 Produced for neck ring holders, these flat springs are available in various designs and offer high durability and a long service life.
 
 ![Flat springs](/img/rurex/flachfed.jpg)
 
-## Plates
+### Plates
 
 Manufactured from fully hardened steel, the plates guarantee high efficiency and a long service life.
 
 ![Plates](/img/rurex/platten.jpg)
 
-## Gob Ring Holders
+### Gob Ring Holders
 
 Cast from heat-resistant steel in a single piece, these holders are long-lasting and competitively priced.
 
 ![Gob ring holder](/img/rurex/tropfringhalter.jpg)
+
+### Glass Crushing Units (Recycling)
+
+![Glass crushing unit](/img/rurex/glass-crusher.jpg)
+
+## Flat Glass Group
+
+### Pattern / Profile Glass Machines
+
+![Pattern / profile glass machine](/img/rurex/profile-glass-machine.jpg)
+
+### Solar, Wired and Cast Glass Machines
+
+![Solar, wired and cast glass machine](/img/rurex/cast-glass-machine.jpg)
+
+### Rollers and Mainrollers
+
+![Patterned rollers](/img/rurex/forming-rollers.jpg)
+
+### Cleaning Equipment
+
+![Roller cleaning equipment](/img/rurex/roller-cleaning-device.jpg)
