@@ -14,34 +14,24 @@ Founded in 1949 as a trading company for special stainless steel materials, **Ru
 
 ## Container Glass Group (Hollow Glass)
 
-### Shear Blades
-
-RUREX shear blades are designed for high-speed IS machines. A special alloy of high hardness and durability is used for this purpose, which guarantees high performance through a very fine grain size, high elasticity even at very high temperatures, freedom from rust and corrosion resistance, and good compatibility with all biological lubricants of high water content.
-
-Thanks to a patented special heat treatment, the cutting section is extremely hard while the clamping section retains the resilience of a spring. This returns the blades to their original position after every cut. They do not bend, and high speeds of up to 190 cuts per minute can be reached without any trouble.
+### Shearblades
 
 <div class="img-row">
-<img src="/img/rurex/shear-blades.jpg" alt="Shear blades" width="400" />
-<img src="/img/rurex/shear-blades-2.jpg" alt="Shear blades, mounted" width="400" />
+<img src="/img/rurex/shear-blades.jpg" alt="Shearblades" width="400" />
+<img src="/img/rurex/shear-blades-2.jpg" alt="Shearblades, mounted" width="400" />
 </div>
 
-### Flat Springs
+### Flatsprings
 
-Produced for neck ring holders, these flat springs are available in various designs and offer high durability and a long service life.
+![Flatsprings](/img/rurex/flachfed.jpg)
 
-![Flat springs](/img/rurex/flachfed.jpg)
+### Deadplates
 
-### Plates
+![Deadplates](/img/rurex/platten.jpg)
 
-Manufactured from fully hardened steel, the plates guarantee high efficiency and a long service life.
+### Orifice Ring Holders
 
-![Plates](/img/rurex/platten.jpg)
-
-### Gob Ring Holders
-
-Cast from heat-resistant steel in a single piece, these holders are long-lasting and competitively priced.
-
-![Gob ring holder](/img/rurex/tropfringhalter.jpg)
+![Orifice ring holder](/img/rurex/tropfringhalter.jpg)
 
 ### Glass Crushing Units (Recycling)
 

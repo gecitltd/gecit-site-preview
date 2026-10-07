@@ -15,34 +15,24 @@ gallery:
 
 ## Ambalaj Camı Grubu (Container Glass / Hollow Glass)
 
-### Makas Bıçağı
-
-RUREX'in makas bıçakları yüksek hızda çalışan IS makinaları için tasarlanmıştır. Bu amaçla yüksek sertliğe ve dayanıklılığa sahip özel bir alaşımın kullanılması, bıçaklarda çok ince tane büyüklüğü ile yüksek performans, çok yüksek sıcaklıklarda bile yüksek esneklik, pas tutmaması ve korozyona dayanıklılığı ile su içeriği yüksek bütün biyolojik kaydırıcılara iyi uyum sağlamasını garantiler.
-
-Patentli özel ısı uygulaması sayesinde, kesici kısım son derece serttir, ancak sabitleme kısmı da bir yayın sertliğine sahiptir. Bu sayede bıçaklar her kesimden sonra ilk yerlerine dönerler. Bükülmezler ve hiç sorunsuz dakikada 190 kesim gibi yüksek hıza ulaşılabilir.
+### Kesme Bıçakları
 
 <div class="img-row">
-<img src="/img/rurex/shear-blades.jpg" alt="Makas bıçağı" width="400" />
-<img src="/img/rurex/shear-blades-2.jpg" alt="Makas bıçağı, montajlı" width="400" />
+<img src="/img/rurex/shear-blades.jpg" alt="Kesme bıçakları" width="400" />
+<img src="/img/rurex/shear-blades-2.jpg" alt="Kesme bıçakları, montajlı" width="400" />
 </div>
 
-### Yassı Yaylar
+### Müldebak Yayları
 
-Boyun halkası tutucuları için üretilen yassı yaylar çeşitli tasarımlarla yüksek dayanıklılık ve uzun kullanım ömrü sağlar.
-
-![Yassı yaylar](/img/rurex/flachfed.jpg)
+![Müldebak yayları](/img/rurex/flachfed.jpg)
 
 ### Plakalar
 
-Tamamıyle sertleştirilmiş çelikten üretilen plakalar yüksek verimlilik ve uzun kullanım ömrü garantilemektedir.
-
 ![Plakalar](/img/rurex/platten.jpg)
 
-### Şamut Tutucusu
+### Orifice Ring Tutucular
 
-Isıya dayanıklı çelikten döküm yoluyla tek parça üretilen tutucular uzun ömürlü ve uygun fiyattadır.
-
-![Şamut tutucusu](/img/rurex/tropfringhalter.jpg)
+![Orifice ring tutucular](/img/rurex/tropfringhalter.jpg)
 
 ### Cam Kırma Üniteleri (Geri Dönüşüm)
 
