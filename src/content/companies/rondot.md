@@ -15,6 +15,8 @@ Cam üretim tesislerinin verimliliğini artırmak, hat süreçlerini optimize et
 
 Cam ambalaj üretiminde sıcak uç süreçlerinin en kritik aşamalarından biri olan damla yönlendirme (delivery equipment), değişken yedek parçalar ve hassas sıcak uç ölçüm ekipmanlarında uzmanlaşmış ana markadır. IS makinelerinde erimiş cam damlasının kalıplara en doğru hız, açı ve formda ulaşmasını sağlayarak üretim kalitesini ve hat verimliliğini artırır.
 
+<a class="site-link" href="https://www.rondot-glass.com/en/" target="_blank" rel="noopener noreferrer">Daha Fazla Bilgi <span class="arrow">↗</span></a>
+
 <div class="img-row">
 <figure>
 <img src="/img/rondot/steel-troughs.jpg" alt="Steel Troughs" width="300" />
@@ -86,7 +88,7 @@ Cam üretim kalıplarının bakım, polisaj ve temizleme süreçleri için özel
 <figcaption>S9 Soniscan</figcaption>
 </figure>
 <figure>
-<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="S3 Mould Volume" width="300" />
+<img src="/img/rondot/sonicam-4-mould-volume.jpg" alt="S3 Mould Volume" width="300" />
 <figcaption>S3 Mould Volume</figcaption>
 </figure>
 <figure>

@@ -14,6 +14,8 @@ As the official representative of **Rondot Group**—a global leader in high-per
 
 As the flagship brand of the group, Rondot specializes in glass scoop/delivery equipment, variable consumables, and high-precision hot-end measuring devices. It ensures that molten glass gobs are directed into the IS machine molds at optimal speed, angle, and shape, significantly improving product quality and overall line efficiency.
 
+<a class="site-link" href="https://www.rondot-glass.com/en/" target="_blank" rel="noopener noreferrer">More Information <span class="arrow">↗</span></a>
+
 <div class="img-row">
 <figure>
 <img src="/img/rondot/steel-troughs.jpg" alt="Steel Troughs" width="300" />
@@ -85,7 +87,7 @@ Sonicam manufactures high-precision equipment specifically engineered for the ma
 <figcaption>S9 Soniscan</figcaption>
 </figure>
 <figure>
-<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="S3 Mould Volume" width="300" />
+<img src="/img/rondot/sonicam-4-mould-volume.jpg" alt="S3 Mould Volume" width="300" />
 <figcaption>S3 Mould Volume</figcaption>
 </figure>
 <figure>
