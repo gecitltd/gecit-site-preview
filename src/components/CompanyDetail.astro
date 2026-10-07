@@ -32,6 +32,7 @@ const quicknavItems = headings.filter((h) => h.depth === 2);
   <div class="company-body">
     <Gallery images={entry.data.gallery} alt={entry.data.name} />
     <Content />
+    <Gallery images={entry.data.galleryEnd} alt={entry.data.name} class="gallery-end" />
   </div>
   <aside class="company-aside">
     {

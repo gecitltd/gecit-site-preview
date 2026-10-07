@@ -1226,6 +1226,14 @@ h4 {
   box-shadow: var(--shadow-md);
 }
 
+/* Closing gallery: sits below the body text, set off by the same rule as headings. */
+.gallery-end {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
 @media (max-width: 640px) {
   .gallery img {
     height: 230px;

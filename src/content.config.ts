@@ -12,6 +12,8 @@ const companySchema = z.object({
   // entries whose full body copy isn't translated (no matching companiesEn entry).
   summaryEn: z.string().optional(),
   gallery: z.array(z.string()).default([]),
+  // Optional second gallery, rendered after the body text below a separator.
+  galleryEnd: z.array(z.string()).default([]),
 });
 
 const companies = defineCollection({

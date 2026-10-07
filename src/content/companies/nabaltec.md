@@ -6,10 +6,19 @@ officialUrl: "https://www.nabaltec.de/"
 summary: "Refrakter sanayii için aluminyum oksit bazlı hammaddeler"
 summaryEn: "Aluminiumoxide raw materials for refractory and ceramic industry"
 gallery:
-  - /img/nabaltec/nabaltec4.jpg
+  - /img/nabaltec/production-bigbag.jpg
+  - /img/nabaltec/packaging.jpg
+  - /img/nabaltec/powder.jpg
+  - /img/nabaltec/production-kiln.jpg
+  - /img/nabaltec/plant.jpg
+  - /img/nabaltec/plant-aerial.jpg
+  - /img/nabaltec/applications.jpg
+  - /img/nabaltec/particle-size.jpg
+galleryEnd:
   - /img/nabaltec/nabaltec1.png
   - /img/nabaltec/nabaltec2.jpg
   - /img/nabaltec/nabaltec3.jpg
+  - /img/nabaltec/nabaltec4.jpg
 ---
 
 1936 yılında VAW Aluminium AG tarafından aluminyumoksit üretim merkezi olarak kurulan **NABALTEC**, 1995 yılında Almanya'nın Bavyera eyaletinin Schwandorf kasabasında bulunan Nabwerk'i de alarak bugün bağımsız bir şirket haline gelmiştir. Ürün yelpazesi müşteri taleplerine göre oluşturulmuş olan **NABALTEC**, aluminyumoksit üstün kaliteli ürünlerde dünya çapında kuvvetli bir pazara sahiptir. Kalite güvencesi ve kalite yönetimine büyük önem veren firma, DIN EN ISO 9001 kalite sertifikasına sahiptir. Aluminyumoksit (Al2O3), refrakter endüstrisi, parlatma ürünleri ve yüksek teknoloji uygulamalarında kullanılan en önemli seramik hammaddesidir. Ayrıca aluminyumoksit yanmayı önleyici özelliği ile dolgu maddesi olarak plastiklerin güvenilir bir şekilde kullanılmasını sağlar.
@@ -20,8 +29,10 @@ Nabaltec, BAYER Prosesi ile refrakter ve seramik endüstrisi için kalsine alumi
 
 **Nabalox®** aluminalar yüksek aşınma ve darbe direnci, elektrik izolasyonu, yüksek mekanik kuvvet, yüksek sıcaklık dayanımı, boyutlarda kesinlik ve optimize edilmiş kimyasal dayanıklık gibi özelliklere sahiptir.
 
-![Nabalox](/img/nabaltec/nabaltec2.jpg)
-![Nabalox](/img/nabaltec/nabaltec3.jpg)
+<div class="img-row">
+<img src="/img/nabaltec/nabaltec2.jpg" alt="Nabalox" width="300" />
+<img src="/img/nabaltec/nabaltec3.jpg" alt="Nabalox" width="300" />
+</div>
 
 ## GRANALOX®
 

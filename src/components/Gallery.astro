@@ -4,13 +4,14 @@ import { withBase } from '../lib/url';
 interface Props {
   images: string[];
   alt: string;
+  class?: string;
 }
-const { images, alt } = Astro.props;
+const { images, alt, class: className } = Astro.props;
 ---
 
 {
   images.length > 0 && (
-    <div class="gallery">
+    <div class:list={['gallery', className]}>
       {images.map((src) => (
         <img src={withBase(src)} alt={alt} loading="lazy" />
       ))}

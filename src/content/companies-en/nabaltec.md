@@ -5,10 +5,19 @@ logo: /img/nabaltec.gif
 officialUrl: "http://www.nabaltec.de/index.php?lang=en"
 summary: "Aluminium oxide raw materials for the refractory and ceramic industry"
 gallery:
-  - /img/nabaltec/nabaltec4.jpg
+  - /img/nabaltec/production-bigbag.jpg
+  - /img/nabaltec/packaging.jpg
+  - /img/nabaltec/powder.jpg
+  - /img/nabaltec/production-kiln.jpg
+  - /img/nabaltec/plant.jpg
+  - /img/nabaltec/plant-aerial.jpg
+  - /img/nabaltec/applications.jpg
+  - /img/nabaltec/particle-size.jpg
+galleryEnd:
   - /img/nabaltec/nabaltec1.png
   - /img/nabaltec/nabaltec2.jpg
   - /img/nabaltec/nabaltec3.jpg
+  - /img/nabaltec/nabaltec4.jpg
 ---
 
 Founded in 1936 by VAW Aluminium AG as an aluminium oxide production centre, **NABALTEC** became an independent company after acquiring the Nabwerk plant in Schwandorf, Bavaria, Germany, in 1995. With a product range shaped around customer requirements, **NABALTEC** holds a strong worldwide market position in high-quality aluminium oxide products. The company places great importance on quality assurance and quality management and holds DIN EN ISO 9001 certification. Aluminium oxide (Al2O3) is the most important ceramic raw material used in the refractory industry, in polishing products and in high-technology applications. As a flame-retardant filler, aluminium oxide also allows plastics to be used safely.
@@ -19,8 +28,10 @@ Nabaltec produces calcined aluminium oxide for the refractory and ceramic indust
 
 **Nabalox®** aluminas offer properties such as high wear and impact resistance, electrical insulation, high mechanical strength, high temperature resistance, dimensional accuracy and optimised chemical durability.
 
-![Nabalox](/img/nabaltec/nabaltec2.jpg)
-![Nabalox](/img/nabaltec/nabaltec3.jpg)
+<div class="img-row">
+<img src="/img/nabaltec/nabaltec2.jpg" alt="Nabalox" width="300" />
+<img src="/img/nabaltec/nabaltec3.jpg" alt="Nabalox" width="300" />
+</div>
 
 ## GRANALOX®
 
