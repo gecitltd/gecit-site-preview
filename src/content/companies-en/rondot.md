@@ -14,6 +14,33 @@ As the official representative of **Rondot Group**—a global leader in high-per
 
 As the flagship brand of the group, Rondot specializes in glass scoop/delivery equipment, variable consumables, and high-precision hot-end measuring devices. It ensures that molten glass gobs are directed into the IS machine molds at optimal speed, angle, and shape, significantly improving product quality and overall line efficiency.
 
+<div class="img-row">
+<figure>
+<img src="/img/rondot/steel-troughs.jpg" alt="Steel Troughs" width="300" />
+<figcaption>Steel Troughs</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/air-ride-troughs.jpg" alt="Air Ride Troughs" width="300" />
+<figcaption>Air Ride Troughs</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/deflectors.jpg" alt="Deflectors" width="300" />
+<figcaption>Deflectors</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/scoop.jpg" alt="SCOOP" width="300" />
+<figcaption>SCOOP</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/speedgob.png" alt="Speedgob" width="300" />
+<figcaption>Speedgob</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/handy-7-pyrometer.png" alt="HANDY 7 Pyrometer" width="300" />
+<figcaption>HANDY 7 Pyrometer</figcaption>
+</figure>
+</div>
+
 ## Sheppee – Hot End Ware Handling Solutions
 
 Sheppee sets global standards in the delicate transfer of hot glass containers from the IS machine to the annealing lehr. Featuring innovative pushers, cross transfer systems, and high-speed line conveyors, Sheppee guarantees the safe and seamless transportation of hot glass without deformation.
@@ -45,16 +72,38 @@ Sonicam manufactures high-precision equipment specifically engineered for the ma
 <a class="site-link" href="https://sonicam.com/en/" target="_blank" rel="noopener noreferrer">More Information <span class="arrow">↗</span></a>
 
 <div class="img-row">
-<img src="/img/rondot/sonicam-1-polissage-moules.jpg" alt="Sonicam - mold polishing" width="300" />
-<img src="/img/rondot/sonicam-2-casper.jpg" alt="Sonicam - Casper" width="300" />
-<img src="/img/rondot/sonicam-3.jpg" alt="Sonicam" width="300" />
-<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="Sonicam - Sonilaser" width="300" />
-<img src="/img/rondot/sonicam-5.jpg" alt="Sonicam" width="300" />
+<figure>
+<img src="/img/rondot/sonicam-1-polissage-moules.jpg" alt="S1 Mould Polishing" width="300" />
+<figcaption>S1 Mould Polishing</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-2-casper.jpg" alt="S2 Casper" width="300" />
+<figcaption>S2 Casper</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-3.jpg" alt="S9 Soniscan" width="300" />
+<figcaption>S9 Soniscan</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="S3 Mould Volume" width="300" />
+<figcaption>S3 Mould Volume</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-5.jpg" alt="S14 Soniarm" width="300" />
+<figcaption>S14 Soniarm</figcaption>
+</figure>
 </div>
 
 ## Graphoidal – Hot End Lubrication & Spraying Systems
 
 Graphoidal designs advanced precision spraying systems for hot-end lubrication in glass forming processes. Offering specialized solutions for shear blade lubrication, scoop spraying, and blank mold lubrication, it delivers maximum operational efficiency and cleanliness with minimal oil consumption.
+
+<div class="img-row">
+<figure>
+<img src="/img/rondot/graphoidal-shear-spray.jpg" alt="Shear Spray" width="300" />
+<figcaption>Shear Spray</figcaption>
+</figure>
+</div>
 
 ## Quantum – Innovative Glass Forming Systems
 

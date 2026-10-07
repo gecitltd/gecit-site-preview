@@ -15,6 +15,33 @@ Cam üretim tesislerinin verimliliğini artırmak, hat süreçlerini optimize et
 
 Cam ambalaj üretiminde sıcak uç süreçlerinin en kritik aşamalarından biri olan damla yönlendirme (delivery equipment), değişken yedek parçalar ve hassas sıcak uç ölçüm ekipmanlarında uzmanlaşmış ana markadır. IS makinelerinde erimiş cam damlasının kalıplara en doğru hız, açı ve formda ulaşmasını sağlayarak üretim kalitesini ve hat verimliliğini artırır.
 
+<div class="img-row">
+<figure>
+<img src="/img/rondot/steel-troughs.jpg" alt="Steel Troughs" width="300" />
+<figcaption>Steel Troughs</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/air-ride-troughs.jpg" alt="Air Ride Troughs" width="300" />
+<figcaption>Air Ride Troughs</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/deflectors.jpg" alt="Deflectors" width="300" />
+<figcaption>Deflectors</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/scoop.jpg" alt="SCOOP" width="300" />
+<figcaption>SCOOP</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/speedgob.png" alt="Speedgob" width="300" />
+<figcaption>Speedgob</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/handy-7-pyrometer.png" alt="HANDY 7 Pyrometer" width="300" />
+<figcaption>HANDY 7 Pyrometer</figcaption>
+</figure>
+</div>
+
 ## Sheppee – Sıcak Cam Taşıma ve Aktarma Sistemleri (Ware Handling)
 
 IS makinesinden çıkan sıcak cam kapların soğutma fırınına (lehr) kadar olan hassas transfer sürecinde dünya çapında standartları belirleyen çözümler sunar. İnovatif aktarma mekanizmaları (pushers), transfer sistemleri ve hat üstü taşıyıcı konveyör donanımları ile sıcak camın deforme olmadan yüksek hızlarda güvenle taşınmasını sağlar.
@@ -46,16 +73,38 @@ Cam üretim kalıplarının bakım, polisaj ve temizleme süreçleri için özel
 <a class="site-link" href="https://sonicam.com/en/" target="_blank" rel="noopener noreferrer">Daha Fazla Bilgi <span class="arrow">↗</span></a>
 
 <div class="img-row">
-<img src="/img/rondot/sonicam-1-polissage-moules.jpg" alt="Sonicam - Polissage moules" width="300" />
-<img src="/img/rondot/sonicam-2-casper.jpg" alt="Sonicam - Casper" width="300" />
-<img src="/img/rondot/sonicam-3.jpg" alt="Sonicam" width="300" />
-<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="Sonicam - Sonilaser" width="300" />
-<img src="/img/rondot/sonicam-5.jpg" alt="Sonicam" width="300" />
+<figure>
+<img src="/img/rondot/sonicam-1-polissage-moules.jpg" alt="S1 Mould Polishing" width="300" />
+<figcaption>S1 Mould Polishing</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-2-casper.jpg" alt="S2 Casper" width="300" />
+<figcaption>S2 Casper</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-3.jpg" alt="S9 Soniscan" width="300" />
+<figcaption>S9 Soniscan</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-4-sonilaser.jpg" alt="S3 Mould Volume" width="300" />
+<figcaption>S3 Mould Volume</figcaption>
+</figure>
+<figure>
+<img src="/img/rondot/sonicam-5.jpg" alt="S14 Soniarm" width="300" />
+<figcaption>S14 Soniarm</figcaption>
+</figure>
 </div>
 
 ## Graphoidal – Sıcak Uç Yağlama ve Püskürtme Çözümleri
 
 Cam şekillendirme hatlarında makale ve kalıp yağlama süreçleri için gelişmiş hassas püskürtme (spraying) sistemleri tasarlar. Sıcak uçta kesme bıçağı yağlama, makas altı püskürtme ve boşaltma oluğu yağlama çözümleri ile minimum yağ tüketimiyle maksimum operasyonel verimlilik ve hijyen sağlar.
+
+<div class="img-row">
+<figure>
+<img src="/img/rondot/graphoidal-shear-spray.jpg" alt="Shear Spray" width="300" />
+<figcaption>Shear Spray</figcaption>
+</figure>
+</div>
 
 ## Quantum – Cam Şekillendirme Teknolojilerinde Yenilikçi Çözümler
 

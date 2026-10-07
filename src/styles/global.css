@@ -1066,6 +1066,25 @@ h4 {
   height: auto;
 }
 
+.company-body .img-row figure {
+  margin: 0;
+  flex: 1 1 260px;
+  max-width: 300px;
+}
+
+.company-body .img-row figure img {
+  display: block;
+  height: auto;
+}
+
+.company-body .img-row figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+  text-align: center;
+}
+
 .company-body .site-link {
   display: inline-flex;
   align-items: center;
