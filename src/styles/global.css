@@ -1234,10 +1234,21 @@ h4 {
   cursor: grabbing;
 }
 
+.gallery {
+  --gallery-h: 340px;
+  /* Largest enlargement allowed; small images get padding instead of more stretch. */
+  --gallery-max-zoom: 1.5;
+}
+
 .gallery img {
   flex: 0 0 auto;
-  height: 340px;
-  width: auto;
+  /* --nw/--nh: natural size (set inline). Picture is drawn at min(frame height,
+     natural height x max zoom); the rest of the frame is padding. */
+  --pic-h: min(var(--gallery-h), calc(var(--nh, 1000) * var(--gallery-max-zoom) * 1px));
+  --pad: calc((var(--gallery-h) - var(--pic-h)) / 2);
+  height: var(--gallery-h);
+  width: calc(var(--pic-h) * var(--nw, 1500) / var(--nh, 1000) + 2 * var(--pad));
+  padding: var(--pad);
   max-width: 100%;
   /* contain: very wide images that hit max-width are letterboxed, not cropped. */
   object-fit: contain;
@@ -1267,8 +1278,8 @@ h4 {
 }
 
 @media (max-width: 640px) {
-  .gallery img {
-    height: 230px;
+  .gallery {
+    --gallery-h: 230px;
   }
 }
 
