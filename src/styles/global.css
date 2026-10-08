@@ -1238,7 +1238,7 @@ h4 {
   flex: 0 0 auto;
   height: 340px;
   width: auto;
-  max-width: 88%;
+  max-width: none;
   /* contain: very wide images that hit max-width are letterboxed, not cropped. */
   object-fit: contain;
   background: var(--paper-2);
