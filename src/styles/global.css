@@ -1222,7 +1222,6 @@ h4 {
   display: flex;
   gap: 1rem;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   /* overflow-x: auto makes the vertical axis clip as well, so the hover lift
      and scale need room here or the image loses its top edge. */
   padding-block: 0.9rem;
@@ -1233,12 +1232,10 @@ h4 {
 
 .gallery.is-dragging {
   cursor: grabbing;
-  scroll-snap-type: none;
 }
 
 .gallery img {
   flex: 0 0 auto;
-  scroll-snap-align: start;
   height: 340px;
   width: auto;
   max-width: 88%;
