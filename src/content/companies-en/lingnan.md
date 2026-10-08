@@ -1,5 +1,5 @@
 ---
-name: "LingNan Refractory Co. Ltd."
+name: "LingNan Refractory"
 industry: glass
 segment: hot-end
 logo: /img/lnref-logo.jpg
