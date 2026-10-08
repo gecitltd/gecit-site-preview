@@ -4,8 +4,8 @@ industry: glass
 segment: hot-end
 logo: /img/xinda.png
 officialUrl: "https://www.xd-refractory.com/"
-summary: "Düz cam, ambalaj camı ve endüstriyel fırınlar için silis refrakter malzemeler"
-summaryEn: "Silica refractories for float glass, container glass and industrial furnaces"
+summary: "Cam Fırınları İçin Yüksek Performanslı Silis ve Refrakter Çözümleri"
+summaryEn: "High-Performance Silica and Refractory Solutions for Glass Furnaces"
 gallery:
   - /img/xinda/building.jpg
   - /img/xinda/production.jpg
@@ -15,8 +15,6 @@ gallery:
   - /img/xinda/silica-mortar.jpg
   - /img/xinda/silica-mix.jpg
 ---
-
-**Cam Fırınları İçin Yüksek Performanslı Silis ve Refrakter Çözümleri**
 
 **Lengshuijiang Xinda Refractories Manufacturing Co., Ltd.**, başta düzcam (float glass) ve cam ambalaj (container glass) fırınları olmak üzere cam endüstrisinin kritik ısı ve mekanik gereksinimlerine yönelik yüksek kaliteli refrakter ürünler üreten öncü bir üreticidir. 60 yılı aşan sektörel birikimi ve modern üretim tesisleriyle fırınların operasyonel ömrünü uzatan, enerji verimliliğini artıran üstün çözümler sunmaktadır. Yılda 80.000 tonluk üretim kapasitesi, sıkı kalite kontrol standartları ve geniş ihracat ağıyla Almanya, Fransa, İtalya ve Brezilya başta olmak üzere dünya genelindeki cam üreticilerine güvenilir çözümler sunmaktadır.
 

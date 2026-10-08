@@ -4,7 +4,7 @@ industry: glass
 segment: hot-end
 logo: /img/xinda.png
 officialUrl: "https://www.xd-refractory.com/"
-summary: "Silica refractories for float glass, container glass and industrial furnaces"
+summary: "High-Performance Silica and Refractory Solutions for Glass Furnaces"
 gallery:
   - /img/xinda/building.jpg
   - /img/xinda/production.jpg
@@ -14,8 +14,6 @@ gallery:
   - /img/xinda/silica-mortar.jpg
   - /img/xinda/silica-mix.jpg
 ---
-
-**High-Performance Silica and Refractory Solutions for Glass Furnaces**
 
 **Lengshuijiang Xinda Refractories Manufacturing Co., Ltd.** is a leading manufacturer specializing in premium refractory products tailored for the critical thermal and mechanical demands of the glass industry, including float glass and container glass furnaces. With over 60 years of industry heritage and advanced manufacturing facilities, Xinda delivers superior solutions that extend furnace lifespans and maximize energy efficiency. With an annual capacity of 80,000 tons, advanced molding equipment, and strict quality control standards, Xinda exports high-performance refractory materials to Germany, France, Italy, Brazil, and major global markets.
 
