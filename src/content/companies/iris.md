@@ -4,8 +4,8 @@ industry: glass
 segment: cold-end
 logo: /img/iris.png
 officialUrl: "https://www.iris-im.com/"
-summary: "Yapay Zeka Destekli Akıllı Cam Ambalaj Kalite Kontrol Teknolojileri"
-summaryEn: "AI-Powered Smart Glass Container Inspection Solutions"
+summary: "Yapay zeka destekli akıllı cam ambalaj kalite kontrol teknolojileri"
+summaryEn: "AI-powered smart glass container inspection solutions"
 gallery: []
 ---
 

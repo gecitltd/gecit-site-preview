@@ -5,7 +5,7 @@ segment: cold-end
 logo: /img/pietro-bonaiti.jpg
 officialUrl: "https://www.pietrobonaiti.com/en/"
 summary: "Soğutma ve dekor fırınları için tel bant, konveyör bantlar ve sessiz zincir"
-summaryEn: "Wire Belts and Chain Conveyors for Cooling and Decorating Ovens"
+summaryEn: "Wire belts and chain conveyors for cooling and decorating ovens"
 gallery:
   - /img/pietro/pietro1.jpg
   - /img/pietro/pietro2.jpg

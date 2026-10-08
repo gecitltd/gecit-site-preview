@@ -4,7 +4,7 @@ industry: glass
 segment: cold-end
 logo: /img/iris.png
 officialUrl: "https://www.iris-im.com/"
-summary: "AI-Powered Smart Glass Container Inspection Solutions"
+summary: "AI-powered smart glass container inspection solutions"
 gallery: []
 ---
 

@@ -4,8 +4,8 @@ industry: glass
 segment: hot-end
 logo: /img/rurex.gif
 officialUrl: "https://rurex.de/en/index.php"
-summary: "Damla Kesme ve Cam Şekillendirme Aletleri"
-summaryEn: "Forming Equipments and Tools"
+summary: "Damla kesme ve cam şekillendirme aletleri"
+summaryEn: "Forming equipment and tools"
 gallery:
   - /img/rurex/rurex1.jpg
   - /img/rurex/rurex2.jpg

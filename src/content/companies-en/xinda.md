@@ -4,7 +4,7 @@ industry: glass
 segment: hot-end
 logo: /img/xinda.png
 officialUrl: "https://www.xd-refractory.com/"
-summary: "High-Performance Silica and Refractory Solutions for Glass Furnaces"
+summary: "High-performance silica and refractory solutions for glass furnaces"
 gallery:
   - /img/xinda/building.jpg
   - /img/xinda/production.jpg

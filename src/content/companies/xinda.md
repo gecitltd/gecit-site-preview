@@ -4,8 +4,8 @@ industry: glass
 segment: hot-end
 logo: /img/xinda.png
 officialUrl: "https://www.xd-refractory.com/"
-summary: "Cam Fırınları İçin Yüksek Performanslı Silis ve Refrakter Çözümleri"
-summaryEn: "High-Performance Silica and Refractory Solutions for Glass Furnaces"
+summary: "Cam fırınları için yüksek performanslı silis ve refrakter çözümleri"
+summaryEn: "High-performance silica and refractory solutions for glass furnaces"
 gallery:
   - /img/xinda/building.jpg
   - /img/xinda/production.jpg

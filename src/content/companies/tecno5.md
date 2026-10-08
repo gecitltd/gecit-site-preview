@@ -4,8 +4,8 @@ industry: glass
 segment: cold-end
 logo: /img/tecno5.jpg
 officialUrl: "https://www.tecno5.it/"
-summary: "Cam Mamüller Üzerine Renkli Dekorlama Makinaları"
-summaryEn: "Machines for Printing on Glass Items"
+summary: "Cam mamüller üzerine renkli dekorlama makinaları"
+summaryEn: "Machines for printing on glass items"
 gallery:
   - /img/tecno5/tecno5-1.jpg
   - /img/tecno5/tecno5-2.png

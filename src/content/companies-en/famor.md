@@ -4,7 +4,7 @@ industry: glass
 segment: hot-end
 logo: /img/famor.jpg
 officialUrl: "https://www.famoreng.com"
-summary: "Italian Excellence in Glass Forming Solutions"
+summary: "Italian excellence in glass forming solutions"
 gallery:
   - /img/famor/famor1.jpg
   - /img/famor/famor2.jpg

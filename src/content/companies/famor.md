@@ -4,8 +4,8 @@ industry: glass
 segment: hot-end
 logo: /img/famor.jpg
 officialUrl: "https://famoreng.com/"
-summary: "Cam Şekillendirme Teknolojilerinde İtalyan Uzmanlığı"
-summaryEn: "Italian Excellence in Glass Forming Solutions"
+summary: "Cam şekillendirme teknolojilerinde İtalyan uzmanlığı"
+summaryEn: "Italian excellence in glass forming solutions"
 gallery:
   - /img/famor/famor1.jpg
   - /img/famor/famor2.jpg
