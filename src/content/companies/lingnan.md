@@ -14,11 +14,6 @@ gallery:
   - /img/lingnan/crown.jpg
   - /img/lingnan/regenerator-crown.jpg
   - /img/lingnan/regenerator-solution.jpg
-  - /img/lingnan/lip-block.jpg
-  - /img/lingnan/bushing.jpg
-  - /img/lingnan/zircon-block.jpg
-  - /img/lingnan/expandables.jpg
-  - /img/lingnan/mo-electrode.jpg
   - /img/lingnan/lingnan1.png
   - /img/lingnan/lingnan2.png
 ---
@@ -27,7 +22,7 @@ gallery:
 
 ## Genişletilmiş Ürün Gamımız ve Üretim Kabiliyetlerimiz
 
-Üretimimiz temel olarak **8 ana grupta** şekillenmektedir:
+Üretimimiz temel olarak **7 ana grupta** şekillenmektedir:
 
 - Krom oksit serisi
 - Zirkon serisi
@@ -36,6 +31,14 @@ gallery:
 - Al<sub>2</sub>O<sub>3</sub>-SiO<sub>2</sub> serisi
 - SnO<sub>2</sub> Elektrot
 - Molibden Elektrot
+
+<div class="img-row">
+<img src="/img/lingnan/bushing.jpg" alt="Bushing" width="300" />
+<img src="/img/lingnan/expandables.jpg" alt="Genleşebilir parçalar" width="300" />
+<img src="/img/lingnan/mo-electrode.jpg" alt="Molibden elektrot" width="300" />
+<img src="/img/lingnan/zircon-block.jpg" alt="Zirkon blok" width="300" />
+<img src="/img/lingnan/lip-block.jpg" alt="Dudak bloğu" width="300" />
+</div>
 
 Fırın eritme döküm (electro fused) refrakter üretim hattımızda bulunan **7 adet ark fırını** ile yüksek kapasiteli üretim gerçekleştirilmektedir. AZS kalite sınıfları (SJ-33, SJ-36, SJ-41) için yıllık **15.000 ton**, Elektrodöküm Alümina (SJ-M, SJ-H) için yıllık **3.000 ton** ve Elektrodöküm Zirkon (SJ-GZ012) için yıllık **1.000 ton** üretim kapasitesine sahibiz.
 

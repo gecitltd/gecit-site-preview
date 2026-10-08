@@ -14,11 +14,6 @@ gallery:
   - /img/lingnan/crown.jpg
   - /img/lingnan/regenerator-crown.jpg
   - /img/lingnan/regenerator-solution.jpg
-  - /img/lingnan/lip-block.jpg
-  - /img/lingnan/bushing.jpg
-  - /img/lingnan/zircon-block.jpg
-  - /img/lingnan/expandables.jpg
-  - /img/lingnan/mo-electrode.jpg
   - /img/lingnan/lingnan1.png
   - /img/lingnan/lingnan2.png
 ---
@@ -27,7 +22,7 @@ Established in 1981 to meet the growing demands of the glass industry, **LingNan
 
 ## Comprehensive Product Portfolio & Manufacturing Capabilities
 
-Our production consists of **8 main sections**:
+Our production consists of **7 main sections**:
 
 - Chromium oxide series
 - Zircon series
@@ -36,6 +31,14 @@ Our production consists of **8 main sections**:
 - Al<sub>2</sub>O<sub>3</sub>-SiO<sub>2</sub> series
 - SnO<sub>2</sub> Electrode
 - Molybdenum Electrode
+
+<div class="img-row">
+<img src="/img/lingnan/bushing.jpg" alt="Bushing" width="300" />
+<img src="/img/lingnan/expandables.jpg" alt="Expandables" width="300" />
+<img src="/img/lingnan/mo-electrode.jpg" alt="Molybdenum electrode" width="300" />
+<img src="/img/lingnan/zircon-block.jpg" alt="Zircon block" width="300" />
+<img src="/img/lingnan/lip-block.jpg" alt="Lip block" width="300" />
+</div>
 
 Operating an electro-fused refractory production line equipped with **7 arc furnaces**, we achieve substantial annual capacities: **15,000 tons** for AZS quality classes (SJ-33, SJ-36, SJ-41), **3,000 tons** for Fused Cast Alumina (SJ-M, SJ-H), and **1,000 tons** for Fused Zircon (SJ-GZ012).
 
