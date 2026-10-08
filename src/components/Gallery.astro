@@ -18,3 +18,37 @@ const { images, alt, class: className } = Astro.props;
     </div>
   )
 }
+
+<script>
+  // Click-and-drag scrolling for mouse users; touch keeps native swiping.
+  document.querySelectorAll<HTMLElement>('.gallery').forEach((el) => {
+    let startX = 0;
+    let startLeft = 0;
+    let down = false;
+    let moved = false;
+    el.addEventListener('pointerdown', (e) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      down = true;
+      moved = false;
+      startX = e.clientX;
+      startLeft = el.scrollLeft;
+    });
+    window.addEventListener('pointermove', (e) => {
+      if (!down) return;
+      const dx = e.clientX - startX;
+      if (!moved && Math.abs(dx) > 4) {
+        moved = true;
+        el.classList.add('is-dragging');
+      }
+      if (moved) el.scrollLeft = startLeft - dx;
+    });
+    const end = () => {
+      if (!down) return;
+      down = false;
+      el.classList.remove('is-dragging');
+    };
+    window.addEventListener('pointerup', end);
+    window.addEventListener('pointercancel', end);
+    el.addEventListener('dragstart', (e) => e.preventDefault());
+  });
+</script>
